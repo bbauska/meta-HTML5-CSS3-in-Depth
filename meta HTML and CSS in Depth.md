@@ -5,6 +5,7 @@ title: "**HTML & CSS in Depth**"
 (Coursera/meta)
 
 ![](images/image001.png)
+
 <!-- {width="1.549261811023622in" height="0.5in"} -->
 
 ![](images/image002.png)
@@ -104,6 +105,7 @@ HTML stands for Hypertext Markup Language.
 But what does that mean?
 
 ![](images/image003.png)
+
 <!-- {width="5.0in" height="1.6068372703412073in"} -->
 
 Hypertext is text which contains links to other text.
@@ -111,6 +113,7 @@ Hypertext is text which contains links to other text.
 Markup refers to tags and elements used within a document.
 
 ![](images/image004.png)
+
 <!-- {width="5.0in" height="1.6068350831146108in"} -->
 
 HTML elements with their opening and closing tags in angle brackets make
@@ -162,8 +165,8 @@ wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
 
-![](images/image005.png){width="5.0in"
-height="1.6068372703412073in"}
+![](images/image005.png)
+<!-- {width="5.0in" height="1.6068372703412073in"} -->
 
 You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
@@ -206,8 +209,8 @@ a developer.
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
-![](images/image006.png){width="6.5in"
-height="2.088888888888889in"}
+![](images/image006.png)
+<!-- {width="6.5in" height="2.088888888888889in"} -->
 
 Let\'s revisit the basic structure of an HTML page which includes the
 head and body.
@@ -215,14 +218,14 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 
-![](images/image007.png){width="6.5in"
-height="2.828472222222222in"}
+![](images/image007.png)
+<!-- {width="6.5in" height="2.828472222222222in"} -->
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
 
-![](images/image008.png){width="6.5in"
-height="3.0819444444444444in"}
+![](images/image008.png)
+<!-- {width="6.5in" height="3.0819444444444444in"} -->
 
 For example, suppose you lay out your page with a header section that
 contains some company logo and navigation links.
@@ -232,8 +235,8 @@ Then a main section contains sections and articles.
 Finally, a footer section contains contact information and social media
 links.
 
-![](images/image009.png){width="6.5in"
-height="3.0819444444444444in"}
+![image009](images/image009.png)
+<!-- {width="6.5in" height="3.0819444444444444in"} -->
 
 The main navigation section of your web page can also be described
 semantically using the Nav tag.
@@ -241,8 +244,8 @@ semantically using the Nav tag.
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
 
-![](images/image010.png){width="5.0in"
-height="2.3707272528433947in"}
+![image010](images/image010.png)
+<!-- {width="5.0in" height="2.3707272528433947in"} -->
 
 The main links of your website are then added inside the Nav element.
 
@@ -267,9 +270,10 @@ That\'s quite a mouthful.
 
 It may help to think of a page in a newspaper.
 
-![](images/image011.png){width="1.5in"
-height="1.9452449693788276in"}It may help to think of a page in a
-newspaper.
+![image011](images/image011.png)
+<!-- {width="1.5in" height="1.9452449693788276in"} -->
+
+It may help to think of a page in a newspaper.
 
 There are many articles on the page and you can cut out the individual
 articles with scissors if needed.
@@ -287,9 +291,10 @@ It\'s good practice to contain the blog post content inside of the
 article element because it\'s a complete self-contained composition on a
 web page.
 
-![](images/image012.png){width="4.0in"
-height="2.4813560804899386in"}You should place the article element
-within the main element.
+![image012](images/image012.png)
+<!-- {width="4.0in" height="2.4813560804899386in"} -->
+
+You should place the article element within the main element.
 
 Then add your regular heading \<h2\> and paragraph \<p\> tags within the
 article element.\
@@ -299,9 +304,10 @@ semantically represents the main content of the page.
 And inside of it there can be multiple article elements for something
 like a blog post list.
 
-![](images/image013.png){width="4.0in"
-height="2.424242125984252in"}At the end of your document is the footer
-element.
+![image013](images/image013.png)
+<!-- {width="4.0in" height="2.424242125984252in"} -->
+
+At the end of your document is the footer element.
 
 This might contain additional navigational links or content.
 
@@ -328,9 +334,10 @@ of the article.
 It is important to note that sections should contain heading elements to
 semantically describe the section.
 
-![](images/image014.png){width="4.0in"
-height="1.9722222222222223in"}It is also possible to use section
-elements to describe different sections of your webpage, the section
+![image014](images/image014.png)
+<!-- {width="4.0in" height="1.9722222222222223in"} -->
+
+It is also possible to use section elements to describe different sections of your webpage, the section
 element doesn't require the article element.\
 It all depends on how you want to semantically describe your page.
 
@@ -348,14 +355,14 @@ website. They\'ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
 
-![](images/image015.png){width="4.0in"
-height="2.4551279527559053in"}
+![image015](images/image015.png)
+<!-- {width="4.0in" height="2.4551279527559053in"} -->
 
 I\'ve set up my basic html document structure in a file named blog.html.
 I\'ll start off by adding my basic semantic structure.
 
-![](images/image016.png){width="6.0in"
-height="3.598718285214348in"}
+![image016](images/image016.png)
+<!-- {width="6.0in" height="3.598718285214348in"}  -->
 
 First, I add the header element. Followed by the nav element, Followed
 by the main element. Followed by the footer element.
@@ -428,8 +435,8 @@ engine determine which web pages are most relevant in this video? You
 will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.
 
-![](images/image017.png){width="3.1041666666666665in"
-height="1.8125in"}
+![image017](images/image017.png)
+<!-- {width="3.1041666666666665in" height="1.8125in"} -->
 
 A major part of launching a website is a process called search engine
 optimization or SEO. This process involves making improvements to a
@@ -6733,162 +6740,112 @@ CSS Pseudo cheat sheet
 
 ## Attribute selectors
 
-+---------------+---------------------+-------------------------------+
 | **Selector**  | **Syntax**          | **Example**                   |
-+===============+=====================+===============================+
+|---------------|---------------------|-------------------------------|
 | **P           | **Example**         | **Description of selection**  |
 | seudo-class** |                     |                               |
-+---------------+---------------------+-------------------------------+
 | \[attribute\] | **\[href\] {**      | Selects all elements with a   |
 |               |                     | href attribute                |
 |               | **}**               |                               |
-+---------------+---------------------+-------------------------------+
 | \[attr        | **\[lang=\"fr\"\]   | Selects all elements with     |
 | ibute=value\] | {**                 | lang attribute that has a     |
 |               |                     | value of \"fr\"               |
 |               | **}**               |                               |
-+---------------+---------------------+-------------------------------+
 | \[attrib      | **\[input\~=hello\] | Elements with input attribute |
 | ute\~=value\] | {**                 | containing the whitespace     |
 |               |                     | separated substring \"hello\" |
 |               | **}**               |                               |
-+---------------+---------------------+-------------------------------+
 | \[attrib      | **\[lang\|=en\] {** | Elements with lang attribute  |
 | ute\|=value\] |                     | value equal to \"en\" or      |
 |               | **}**               | \"en-\"(en hyphen)            |
-+---------------+---------------------+-------------------------------+
 | \[attrib      | **a\                | Every \<a\> element with href |
 | ute\^=value\] | [href\^=\"https\"\] | attribute value begins with   |
 |               | {**                 | \"https\"                     |
 |               |                     |                               |
 |               | **}**               |                               |
-+---------------+---------------------+-------------------------------+
 | \[attrib      | **a\                | Every \<a\> element with href |
 | ute\$=value\] | [href\$=\".docx\"\] | attribute value ends with     |
 |               | {**                 | \".docx\"                     |
 |               |                     |                               |
 |               | **}**               |                               |
-+---------------+---------------------+-------------------------------+
 | \[attrib      | **a                 | Every \<a\> element with href |
 | ute\*=value\] | \[href\*=\"meta\"\] | attribute value has substring |
 |               | {**                 | \"meta\"                      |
 |               |                     |                               |
 |               | **}**               |                               |
-+---------------+---------------------+-------------------------------+
 | :active       | **a:active { }**    | All active links              |
-+---------------+---------------------+-------------------------------+
 | :checked      | **input:checked {   | All the checked \<input\>     |
 |               | }**                 | elements                      |
-+---------------+---------------------+-------------------------------+
 | :default      | **input:default {   | All default \<input\>         |
 |               | }**                 | elements                      |
-+---------------+---------------------+-------------------------------+
 | :disabled     | **input:disabled {  | All disabled \<input\>        |
 |               | }**                 | elements                      |
-+---------------+---------------------+-------------------------------+
 | :empty        | **div:empty { }**   | All the \<div\> elements with |
 |               |                     | no children                   |
-+---------------+---------------------+-------------------------------+
 | :enabled      | **input:enabled {   | All the enabled \<input\>     |
 |               | }**                 | elements                      |
-+---------------+---------------------+-------------------------------+
 | :first-child  | **p:first-child {   | All the \<p\> elements who    |
 |               | }**                 | are the first child of a      |
 |               |                     | parent element                |
-+---------------+---------------------+-------------------------------+
 | :             | **p:first-of-type { | All the \<p\> element who are |
 | first-of-type | }**                 | the first \<p\> element of a  |
 |               |                     | parent element                |
-+---------------+---------------------+-------------------------------+
 | :focus        | **input:focus { }** | Input element under focus     |
-+---------------+---------------------+-------------------------------+
 | :fullscreen   | **:fullscreen { }** | The element in full-screen    |
 |               |                     | mode                          |
-+---------------+---------------------+-------------------------------+
 | :hover        | **p:hover { }**     | Action effect on mouse hover  |
-+---------------+---------------------+-------------------------------+
 | :invalid      | **input:invalid {   | Input elements with an        |
 |               | }**                 | invalid value                 |
-+---------------+---------------------+-------------------------------+
 | :last-child   | **p:last-child {    | All the \<p\> elements who    |
 |               | }**                 | are the last child of a       |
 |               |                     | parent element                |
-+---------------+---------------------+-------------------------------+
 | :last-of-type | **p:last-of-type {  | All the \<p\> elements who    |
 |               | }**                 | are the last \<p\> element of |
 |               |                     | a parent element              |
-+---------------+---------------------+-------------------------------+
 | :link         | **a:link { }**      | All unvisited links           |
-+---------------+---------------------+-------------------------------+
 | :no           | **:not(div) { }**   | All the elements that are not |
 | t(*selector*) |                     | a \<div\> element             |
-+---------------+---------------------+-------------------------------+
 | :n            | **div:nth-child(3)  | All the \<p\> elements that   |
 | th-child(*n*) | { }**               | are the third child of a      |
 |               |                     | parent element                |
-+---------------+---------------------+-------------------------------+
 | :nth-la       | **di                | All the \<div\> elements      |
 | st-child(*n*) | v:nth-last-child(3) | which are the third child of  |
 |               | { }**               | a parent element, counting    |
 |               |                     | from last child element       |
-+---------------+---------------------+-------------------------------+
 | :nth-last     | **p:                | The second sibling from the   |
 | -of-type(*n*) | nth-last-of-type(2) | last child of a parent        |
 |               | { }**               | element.                      |
-+---------------+---------------------+-------------------------------+
 | :nth          | **p:nth-of-type(2)  | The second sibling of a       |
 | -of-type(*n*) | { }**               | parent element.               |
-+---------------+---------------------+-------------------------------+
 | :only-of-type | **p:only-of-type {  | All the \<p\> elements which  |
 |               | }**                 | are only \<p\> elements       |
 |               |                     | inside its parent             |
-+---------------+---------------------+-------------------------------+
 | :only-child   | **p:only-child {    | All the \<p\> elements which  |
 |               | }**                 | are only child of a parent    |
 |               |                     | element                       |
-+---------------+---------------------+-------------------------------+
 | :optional     | **input:optional {  | The input elements with no    |
 |               | }**                 | \"required\" attribute        |
-+---------------+---------------------+-------------------------------+
 | :required     | **input:required {  | Selects input elements with   |
 |               | }**                 | the \"required\" attribute    |
 |               |                     | specified                     |
-+---------------+---------------------+-------------------------------+
 | :root         | **:root { }**       | The Root element of document  |
-+---------------+---------------------+-------------------------------+
 | ::selection   | **::selection { }** | The portion of an element     |
 |               |                     | that is selected by a user    |
-+---------------+---------------------+-------------------------------+
 | :valid        | **input:valid { }** | All the input elements with a |
 |               |                     | valid value                   |
-+---------------+---------------------+-------------------------------+
 | :visited      | **a:visited { }**   | Selects all visited links     |
-+---------------+---------------------+-------------------------------+
 
 ## Pseudo-element selectors
 
-  ---------------------------------------------------------------------------
-  **Syntax**       **Example**             **Description**
-  ---------------- ----------------------- ----------------------------------
-  ::after          **p::after { }**        Inserts content after content of
-                                           \<p\> element
-
-  ::before         **p::before { }**       Inserts content before content of
-                                           \<p\> element
-
-  ::first-letter   **p::first-letter { }** Selects first letter of every
-                                           \<p\> element
-
-  ::first-line     **p::first-line { }**   Selects first line of every \<p\>
-                                           element
-
-  ::placeholder    **input::placeholder {  Selects input elements with
-                   }**                     \"placeholder\" attribute
-                                           specified
-
-  ::marker         **::marker { }**        Selects markers in a list
-  ---------------------------------------------------------------------------
-
+|**Syntax** |**Example** |**Description** |
+|-----------|------------|----------------|
+|  ::after |         **p::after { }** |    | Inserts content after content of &lt;p&gt; element. |
+|  ::before  |       **p::before { }**       | Inserts content before content of &lt;p&gt; element. |
+|  ::first-letter |   **p::first-letter { }** | Selects first letter of every &lt;p&gt; element. |
+|  ::first-line |    **p::first-line { }**  | Selects first line of every &lt;p&gt; element. |
+|  ::placeholder|    **input::placeholder { }** | Selects input elements with &quot;placeholder&quot; attribute specified. |
+|  ::marker  |       **::marker { }**        | Selects markers in a list. |
+ 
 Additional resources
 
 Here is a list of resources about selectors, pseudo-classes and
