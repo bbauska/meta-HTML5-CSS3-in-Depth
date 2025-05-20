@@ -5979,12 +5979,16 @@ of a pseudo-element.</p>
 instead of one.</p>
 <p>Now, let’s explore some examples of popular pseudo-elements.</p>
 
-<h4>::first-letter</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>::first-letter</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>You can use first-letter to change the color of just the first letter
 of each of the three points in the example text.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  &lt;!DOCTYPE html&gt;
     &lt;html&gt;
@@ -6001,7 +6005,9 @@ of each of the three points in the example text.</p>
     &lt;/body&gt; 
   &lt;/html&gt;</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  li::first-letter { 
  
@@ -6014,6 +6020,7 @@ of each of the three points in the example text.</p>
   line-height: 1; 
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 183. sample output - first letter style change ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6028,13 +6035,14 @@ of each of the three points in the example text.</p>
 it makes a big difference in terms of presentation. Now let’s change the
 font in a different way.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>::first-line</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>First-line will change the complete first line of each of the bullet
 points to light sea green.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  ul{
     list-style-type: none;
   }
@@ -6045,6 +6053,7 @@ points to light sea green.</p>
     line-height: 1;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 184. sample output - first line style change ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6062,6 +6071,7 @@ Note that the contents of the line to which this pseudo-element is
 applied will change as you increase or decrease the size of your
 viewport.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. enlarged sample output ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6072,7 +6082,9 @@ viewport.</p>
   alt="Enlarged sample output."
   style="width:25%;" />
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>::selection</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>Selection is another useful pseudo-element. For example, you may use
 it when you are taking notes on your device because it allows you to
@@ -6081,7 +6093,9 @@ user selects content. On web pages today, you will typically see
 inverted colors from white-black to black-white when selecting a portion
 of text.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  ul{
     list-style-type: none;
@@ -6095,6 +6109,7 @@ of text.</p>
 
 <p>Here is an example of a selection of text.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 186. example of same text selected and highlighted ~~~~~~~~~~~~~~~~~~~~-->
@@ -6108,6 +6123,7 @@ of text.</p>
 <p>And another example of the same text but with a different section
 selected and highlighted.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. different highlights ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6121,7 +6137,9 @@ selected and highlighted.</p>
 <p>Different segments of the text are highlighted depending on the text
 that is selected at any given point.</p>
 
-<h4>::marker </h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>::marker </h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>Markers are typically used to add style elements to a list, for
 instance, to color bullet points. For example, you can enhance the user
@@ -6134,6 +6152,7 @@ experience when you use a marker in the following way.</p>
     font-size: 1.1em;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. change bullet shapes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6146,8 +6165,9 @@ experience when you use a marker in the following way.</p>
 
 <p>Now the bullet points are cornflower blue and they have the shape
 specified in the code.</p>
-
-<h4>::before and ::after</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>::before and ::after</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>One more pair of pseudo-elements are the <strong>::before</strong>
 and <strong>::after</strong> pseudo-elements. They allow you to add
@@ -6157,7 +6177,9 @@ it. You can also add styling options for this content. Let’s do an
 example where text is added both before and after some cooking
 guidelines to identify them as important tips.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  &lt;body&gt;
     &lt;p id="tips"&gt; Don't rinse your pasta after it is drained. &lt;/p&gt;
@@ -6165,7 +6187,9 @@ guidelines to identify them as important tips.</p>
     &lt;p id="tips"&gt; Peel and seed large tomatoes. &lt;/p&gt;
   &lt;/body&gt;</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  #tips::before{
     background: darkkhaki;
@@ -6184,6 +6208,7 @@ guidelines to identify them as important tips.</p>
     border-radius: 20%;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 189. tips and exclamations highlighted ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6209,7 +6234,9 @@ are plenty of other pseudo-elements and some of them are more popular
 than others. You can follow your own style and explore the creative
 possibilities that pseudo-classes and pseudo-elements offer.</p>
 
-<h4>Practical use of pseudo</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Practical use of pseudo</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>By now you should know that developers use pseudo-classes to style
 and make web pages more interactive.</p>
@@ -6383,9 +6410,11 @@ states to improve the interactivity of web pages.
 You also explored additional effects that you can create with the
 hover effect.</p>
 
-<h4>CSS Pseudo cheat sheet</h4>
-
-<h4>Simple selectors</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>CSS Pseudo cheat sheet</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Simple selectors</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <table>
 <colgroup>
@@ -6425,7 +6454,9 @@ hover effect.</p>
 </tbody>
 </table>
 
-<h4>Variations of simple selectors:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Variations of simple selectors:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <table>
 <colgroup>
@@ -6470,7 +6501,9 @@ hover effect.</p>
 </tbody>
 </table>
 
-<h4>Descendant selectors/combinators:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Descendant selectors/combinators:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <table>
 <colgroup>
@@ -6515,7 +6548,9 @@ hover effect.</p>
 </tbody>
 </table>
 
-<h4 id="attribute-selectors">Attribute selectors:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="attribute-selectors">Attribute selectors:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <table>
 <colgroup>
@@ -6735,7 +6770,9 @@ element</td>
 </tbody>
 </table>
 
-<h4 id="pseudo-element-selectors">Pseudo-element selectors:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="pseudo-element-selectors">Pseudo-element selectors:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <table>
 <colgroup>
@@ -6784,8 +6821,9 @@ element</td>
 </tbody>
 </table>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Additional resources</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is a list of resources about selectors, pseudo-classes and
 pseudo-elements in HTML and CSS that may be helpful as you continue your
 learning journey.</p>
@@ -6927,7 +6965,9 @@ Without effects are not only dull, but users also have a hard time
 finding their way around such sites, mastering CSS effects will enable
 you to create Web pages that users love to use.</p>
 
-<h4>Text effects</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Text effects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>Have you ever opened a website with a lot of texts and thought,
 Wow! There are two very different reasons you might have that reaction.
@@ -7057,7 +7097,9 @@ I'm happy with it.
 That's all my examples. In this section, you learned how to add effects to your text using 
 a few simple rules in CSS.</p>
 
-<h4>Text effects cheat sheet</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Text effects cheat sheet</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>The effects developers use on text items on a web page are chosen
 mainly because of their styling and layout style. Interesting effects
@@ -7216,7 +7258,9 @@ alignment and define the scope of text with their containers. </p>
 
 <p>The properties mentioned are ones that can be used for giving effects to text.</p>
 
-<h4>CSS Transforms and transitions</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>CSS Transforms and Transitions</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>So far, you have learned how animation can be used to add
 interactivity and responsiveness to a web page.
@@ -7416,7 +7460,9 @@ A number of different effects like these can be performed with the
 help of the two properties, transform and transition and combining them
 with pseudo classes such as hover active and others.</p>
 
-<h4>CSS animation</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>CSS animation</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>By now you should know the basics of CSS animation.
 It's time to explore some more advanced properties and rules.
@@ -7534,7 +7580,9 @@ when it comes to animation. The properties and rules you covered can be configur
 in many more ways. For instance, you can combine them with other elements like images to
 achieve amazing animations using purely CSS.</p>
 
-<h4>CSS keyframes</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>CSS keyframes</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>In this reading, you will become acquainted with the @keyframes rule
 and you’ll learn how to use it with the animation property in CSS.
@@ -7552,7 +7600,9 @@ B. You can use the transition and transform properties to do that, but
 animation sequences are used to accomplish more complex behaviors in an
 easier way.</p>
 
-<h4>from{} and to{} keywords and using percentages(%) syntax</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>from{} and to{} keywords and using percentages(%) syntax</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  @keyframes animation-name {
     from {
@@ -7593,8 +7643,9 @@ animation-duration must be defined while others such as timing-function,
 delay, direction, fill-more, iteration-count and so on can be
 added.</p>
 
-<h4>Animation property shorthand:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Animation property shorthand:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The shorthand for the animation property consists of the following
 properties with their default values:</p>
 
@@ -7617,9 +7668,11 @@ is what's used to tie it to the @keyframes rule.</p>
 <p>Let’s now examine an example of how you can use @keyframes and the
 animation property. </p>
 
-<h4>Animation example</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Animation example</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  &lt;body&gt;
     &lt;div class="box"&gt;&lt;/div&gt;
@@ -7627,7 +7680,9 @@ animation property. </p>
 
   &lt;/html&gt;</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  body{
     padding: 30px;} 
@@ -7643,6 +7698,7 @@ animation property. </p>
     to{width: 100px; 
     }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>And this is the output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227/228. red rectangles (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7686,6 +7742,7 @@ percentages, it will have the same output.</p>
     100%{width: 100px;
     }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 229/230. brown & green rectangles (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7709,8 +7766,9 @@ of code. Just like this, you can keep adding steps inside your
 animation effects. Animation property and @keyframes rule can be used in
 very creative ways to enhance a web page.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Animation examples</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>By now you should know that CSS offers many possibilities for
 creating interesting animations.</p>
 <p>But to make your animations more complex and exciting, you need to
@@ -7826,38 +7884,44 @@ Now my animation plays exactly as I intended it to do.</p>
 CSS. But CSS animations and keyframes are quite powerful. Try challenging 
 yourself and see what animations you can build.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Animation and effects cheat sheet</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Transform property</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>transform: transform function-values</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  .sample-class {
     transform: rotate(60deg);
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Keyword-value type: none</strong></h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  .sample-class {
     transform: none;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: matrix() </strong></h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: matrix(), matrix3d()</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
      transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: rotate(deg)</strong></h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  .sample-class {
     transform: rotate3d(3,2,1, 100deg);
   }</pre>
@@ -7865,9 +7929,11 @@ yourself and see what animations you can build.</p>
 <p>Note: In rotate3d(), the respective values represent x, y, z
 co-ordinate and degree of rotations</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: translate(x,y)</strong></h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: translate(), translate3d(), translateX(), translateY(), translateZ()</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
     transform: translate3d(10px, 20px, 30px);
@@ -7876,9 +7942,11 @@ co-ordinate and degree of rotations</p>
 <p>Note: In translate3d(), the respective values represent translation
 along the x, y, z co-ordinates</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: scale(factor)</strong></h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
     transform: scale3d(2, 1, 0.3);
@@ -7887,7 +7955,9 @@ along the x, y, z co-ordinates</p>
 <p>Note: In scale3d(), the respective values represent scaling times
 along the x, y, z co-ordinates</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: skew(deg, deg)</strong></h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>Variations: skew(), skewX(), skewY()</h4>
 
@@ -7895,7 +7965,9 @@ along the x, y, z co-ordinates</p>
     transform: skew(100deg);
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Global value types:</strong></h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
     transform: inherit;
@@ -7913,15 +7985,18 @@ along the x, y, z co-ordinates</p>
     transform: unset;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Multiple transform over the same element</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Transform can be applied for rotate(), scale() and translate() that
 can be listed together. Each of these properties can have their own
 values and the actions will give a combined effect. </p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
     transform: rotate(45deg) scale(1.5) translate(45px);
@@ -7930,7 +8005,9 @@ values and the actions will give a combined effect. </p>
 <p>Additional property under transform:transform-origin</p>
 <p>Determines the anchor point for the centering of transform.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
     transform-origin: 10px 10px;
@@ -7939,10 +8016,11 @@ values and the actions will give a combined effect. </p>
     transform-origin: right bottom;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Transition property</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Transition shorthand</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Transition shorthand has four following sub-properties, each of which
 can also be individually defined. </p>
 
@@ -7956,24 +8034,27 @@ can also be individually defined. </p>
 <p>You have to list the values without naming them individually. Values
 skipped will be assigned their default values.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>transition: property duration timing-function delay;</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>transition: margin-left 2s ease-in-out 0.5s;</pre>
-
-<h4>Animations and @keyframes</h4>
-
-<h4>animation property:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Animations and @keyframes</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>animation property:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>animation: <em>name duration timing-function delay iteration-count 
   direction fill-mode play-state</em>;</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  .sample-class {
     animation: none 2 ease 0.5 4 normal none running;
@@ -7993,16 +8074,20 @@ skipped will be assigned their default values.</p>
 <p>The values not mentioned are given default values.</p>
 <p>Animation-name property is used to tie-in the @keyframes rule.</p>
 
-<h4>@keyframes</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>@keyframes</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  @keyframes mymove {
     from {property: value}
     to { property: value }
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  @keyframes animation-name {
     from {bottom: 0px;}
@@ -8011,7 +8096,9 @@ skipped will be assigned their default values.</p>
 
 <p>Percentage denotes the timing of the animation. </p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Alternative syntax</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>  @keyframes animation-name {
   /* declare actions here */
@@ -8028,8 +8115,9 @@ skipped will be assigned their default values.</p>
     }
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Multiple animations</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Works the same as regular animation, multiple rules can be set. </p>
 
 <pre>  #some-class{
@@ -8037,10 +8125,11 @@ skipped will be assigned their default values.</p>
         animation-b 3s ease infinite alternate;
   }</pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Preprocessors: sass, scss, Stylus</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Preprocessors: sass, scss</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now that you have learned about different animation effects, let's
 explore the topic of preprocessors which can make the process of
 creating them easier. CSS preprocesses are special compilers used to
@@ -8065,20 +8154,22 @@ very long, messy and complex. It also made it difficult to troubleshoot.
 Preprocessors have their own scripting language that adds logical
 structures, automation properties, reusability and bloating of the code.
 You’ll now explore some of the different preprocessors available.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>SASS and SCSS</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Syntactically Awesome Style Sheets (SASS) is a scripting language
 that CSS compiles and interprets into CSS. SCSS, which stands for Sassy
 CSS is the syntax for SASS and can be seen as an advanced version of
 both SASS and CSS. The difference between SASS and SCSS is best
 explained by the SASS documentation, which states:</p>
+
 <p>"There are two syntaxes available for Sass. The first, known as SCSS
 (Sassy CSS) and used throughout this reference, is an extension of the
 syntax of CSS. This means that every valid CSS stylesheet is a valid
 SCSS file with the same meaning. This syntax is enhanced with the Sass
 features described below. Files using this syntax have the .scss
 extension.</p>
+
 <p>The second and older syntax, known as the indented syntax (or
 sometimes just “Sass”), provides a more concise way of writing CSS. It
 uses indentation rather than brackets to indicate the nesting of
@@ -8086,9 +8177,9 @@ selectors and newlines rather than semicolons to separate properties.
 Files using this syntax have the .sass extension."</p>
 
 <p>This example highlights these differences.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Regular CSS:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  body { 
     font: 100% Arial; 
     color: lightblue; 
@@ -8103,9 +8194,9 @@ Files using this syntax have the .sass extension."</p>
     font: 100% $font-stack; 
     color: $primary-color; 
   }</pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>SASS for the same block:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  $font-stack: Arial 
   $primary-color: lightblue 
  
@@ -8119,8 +8210,10 @@ The result for both will be the same, and it is not hard to imagine how
 much time this can save for the developer in complex code blocks where
 there are a number of occurrences of ‘lightblue’ color. These variables
 are placed at the top of the SCSS page.</p>
+
 <p>In the case of SASS, the variation has mainly removed the curly
 brackets and semi-colons from the code.</p>
+
 <p>The nesting of selectors and separation of properties here is done by
 means of indentation. You should note that all this syntax is valid and
 will produce the same output.  For someone familiar with programming concepts, 
@@ -8129,9 +8222,9 @@ can be utilized for adding rules conditionally.</p>
 
 <p>Another important functionality in SASS is the use of directives. Let
 us explore a couple of directives called @mixin and @include.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>  @mixin some-rules {
     color: lightblue;
     font-size: 25px;
@@ -8151,8 +8244,9 @@ also used. @import allows the import of rules from another file, and
 @extend allows all the rules from a specific selector to be added inside
 another selector.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Stylus CSS</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now that you know how preprocessors behave let us explore one more of
 their type, called Stylus. If you continue to use the example above, the
 code for Stylus will look like this:</p>
@@ -8166,6 +8260,7 @@ brackets or semicolons. But you should note that it is still allowed to
 use all of them in Stylus without any error. Similarly, you can also use
 ‘$’ or any other symbol before variables, but you are not ‘required’ to
 do so.</p>
+
 <p>For someone unfamiliar with programming, functions are a block of
 self-contained code that consists of steps designed to accomplish and
 obtain the desired output. The preprocessors, as mentioned, allow the
@@ -8198,8 +8293,9 @@ preprocessors should be explored. The use of preprocessors today is
 almost inescapable given the number of advanced features they provide
 which are not available in conventional CSS.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Additional resources</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is a list of resources about animation and keyframes in HTML and
 CSS that may be helpful as you continue your learning journey.</p>
 
@@ -8224,10 +8320,10 @@ CSS that may be helpful as you continue your learning journey.</p>
     noreferrer">Collection of examples using HTML/CSS</a></li>
 </ul>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Common errors</h3>
-
-<p>Have you ever made a mistake while programming?
-Well, you're not alone.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Have you ever made a mistake while programming? Well, you're not alone.
 After all, mistakes are a part of programming.
 If there are never any errors in your code, that means you're either
 extremely skilled or not writing enough code.
@@ -8248,12 +8344,9 @@ or some quotation marks while defining values and forgetting to close
 brackets.</p>
 
 <p>For example, say there's some code where the programmer didn't enter
-the closing bracket.
-When the closing bracket is typed, the code becomes functional
-again.
-This can also be extended to syntax errors such as closing the tags
-in HTML.
-Sometimes, it can be as basic as not having a proper doctype
+the closing bracket. When the closing bracket is typed, the code becomes functional
+again. This can also be extended to syntax errors such as closing the tags
+in HTML. Sometimes, it can be as basic as not having a proper doctype
 declaration in your html code.
 All of these are simple mistakes and typos that happen while writing
 your code, but these are also the ones that take the most time to
@@ -8264,8 +8357,9 @@ of the developer.</p>
 
 <p>For example, there are also some things such as using inline tags and
 writing tags in the upper case, which won't be flagged or stop the code
-execution but are still considered bad practice.
-Next, let's explore rule-based errors in more detail.
+execution but are still considered bad practice.</p>
+
+<p>Next, let's explore rule-based errors in more detail.
 These are code-based mistakes developers make when they do not follow
 the rules.
 For instance, did you know that you cannot start a class name with a
@@ -8279,20 +8373,17 @@ errors.</p>
 
 <p>For example, here's a short list of just some of the different
 properties that can accept color values and be intermixed, color,
-background, color, font, color and border color.
-Or there is often more than one way in which the same page can be
+background, color, font, color and border color.</p>
+<p>Or there is often more than one way in which the same page can be
 designed such as flex box, grids, and so, on each with its own set of
-properties.
-All these properties may add to the confusion if not dealt with
-correctly.
-There are also knowledge-based errors.
-These errors happen when you are a more experienced coder but you
-still have gaps in your knowledge.
-There is a tendency to have more and more complicated code using
-complex queries, such as using attribute selectors or writing rules from
-multiple classes.
-Expanding your coding knowledge will make coding easier but at the
-same time, it may make things confusing if you make your code too complex.</p>
+properties. All these properties may add to the confusion if not dealt with
+correctly.</p>
+<p>There are also knowledge-based errors. These errors happen when you are a more 
+experienced coder but you still have gaps in your knowledge. There is a tendency to 
+have more and more complicated code using complex queries, such as using attribute 
+selectors or writing rules from multiple classes. Expanding your coding knowledge will 
+make coding easier but at the same time, it may make things confusing if you make 
+your code too complex.</p>
 
 <p>For example, when you have to go back to code after not seeing it for
 a while and you have to figure out what you were doing when you initially wrote it.
@@ -8353,40 +8444,38 @@ And as a result, you will progressively make fewer errors.
 You learned about the common errors made in HTML and CSS, as well as,
 good practices to avoid them. Great work.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Handling errors</h3>
-
-<p>In this section, you're going to learn about how you can handle errors
-in CSS.</p>
-<p>The first thing that you should know is that CSS does not handle
-errors in the same way that most programming languages do.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>In this section, you're going to learn about how you can handle errors in CSS.</p>
+<p>The first thing that you should know is that CSS does not handle errors in the 
+same way that most programming languages do.</p>
 <p>The code does not break or stop executing.</p>
-<p>Instead, it just passes through the code and simply ignores the lines
-that it does not understand.</p>
+<p>Instead, it just passes through the code and simply ignores the lines that it does 
+not understand.</p>
 <p>In fact, it can also ignore the next property.</p>
-<p>After the mistake that is inside the same selector in V. S code, I
+<p>After the mistake that is inside the same selector in VS code, I
 opened the html and CSS files that we used to demonstrate the transform
 and transition properties in an earlier video.</p>
 <p>Let me open the output to remind you what the CSS styling does.</p>
 <p>Now I'm going to tweak the CSS code to create a mistake.</p>
-<p>Let's remove a semi colon after the background color properties of
-the boxes.</p>
-<p>Visual studio code provides some basic information about mistakes to
-get that information.</p>
+<p>Let's remove a semi colon after the background color properties of the boxes.</p>
+<p>Visual studio code provides some basic information about mistakes to get that 
+information.</p>
 <p>I click on view and then problems.</p>
-<p>An error message displays in the problem panel that says missed semi
-colon.</p>
-<p>But this error does not prevent the execution of the rest of the
-code.</p>
+<p>An error message displays in the problem panel that says missed semi colon.</p>
+<p>But this error does not prevent the execution of the rest of the code.</p>
 <p>When I run the code, the boxes still display, but only their borders
 are visible and they have square corners.</p>
-<p>In other words, the CSS before the error is executed, giving the
-boxes their size and placing them in a grid, still run.</p>
-<p>Then the background color properties as well as the border radius
-properties in the line below are skipped.</p>
+<p>In other words, the CSS before the error is executed, giving the boxes their size 
+and placing them in a grid, still run.</p>
+<p>Then the background color properties as well as the border radius properties in the 
+line below are skipped.</p>
 <p>After that, the rest of the styling is still applied, such as the
 border properties as well as the hover pseudo class properties.</p>
 <p>Let's put back the semi colon and create another error when I removed
 the semi colon after the background.</p>
+
 <p>Color properties of the hover class.</p>
 <p>The hover effect still works but the color does not change to light
 coral.</p>
@@ -8396,27 +8485,25 @@ the transition property still works.</p>
 need to validate the code for more than just syntax errors.</p>
 <p>Such as checking against specific coding conventions and best
 practices to resolve these kinds of issues.</p>
+
 <p>Developers use a tool called a letter.</p>
 <p>A letter is a tool that applies a set of rules to check the syntax
 and find any problematic patterns or inefficiencies in the code.</p>
 <p>There are a number of winter tools and websites available.</p>
 <p>Alternatively, you can also install a third-party tool using the
-command line or extensions in the S code.</p>
+command line or extensions in the VS code.</p>
 <p>You can find more about these online tools and how to install winter
 extensions in the additional resources at the end of the lesson.</p>
+
 <p>Next, I will demonstrate how to let your CSS code using a visual
 studio code extension called style.</p>
 <p>And there are plenty of Starlink rules that you can use for this
 demonstration.</p>
-<p>I'm using the alpha value notation rule and the color no hex
-rule.</p>
-<p>The alpha value notation rule requires using a specific notation for
-alpha values.</p>
-<p>Whereas the color no hex rule disallows the usage of hex color
-notation.</p>
+<p>I'm using the alpha value notation rule and the color no hex rule.</p>
+<p>The alpha value notation rule requires using a specific notation for alpha values.</p>
+<p>Whereas the color no hex rule disallows the usage of hex color notation.</p>
 <p>These are just examples and are not necessarily best practices.</p>
-<p>You can select your own set of lint rules according to your own best
-practices.</p>
+<p>You can select your own set of lint rules according to your own best practices.</p>
 <p>Now that the style and extension is running.</p>
 
 <p>Other errors are showing in the problems panel.</p>
@@ -8446,15 +8533,15 @@ studio code that you can use to find lint errors.</p>
 tools that allow you to modify your CSS code.</p>
 
 <p>And verify the changes directly in the browser.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Installing a third-party Linter in VS Code</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Bla bla bla</p>
 <p>Can’t use it. Computer is not powerful enough. And MS Visual Studio
 is a total piece of shit. Much like Windows and Office. A fucking joke.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Debugging the front-end</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this reading, you will learn about some of the fundamental tasks
 used to debug CSS. The scope of what’s covered will match the topics
 already covered in this course.</p>
@@ -8481,9 +8568,9 @@ the layout, such as:</p>
   <li>Misplaced elements in relation to its container class</li>
   <li>Browser and device-related inconsistencies resulting in variable viewports</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Isolation by reduced test case</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>One way to deal with a problem is to replicate your code and
 systematically remove any code unrelated to the HTML and CSS elements
 that could be the source of the problem. The code should be distilled
@@ -8491,9 +8578,9 @@ down to the least amount of code possible, and only then are suitable
 changes made to get the results you want. Alternatively, you can enable
 rules one at a time to observe their impact on the displayed
 elements.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Items inside containers</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Often, isolation will not work, as the problem is the result of the
 relative mapping of elements. For example, with the misconfigured width
 of an item inside a flex layout. It’s important to check the use of
@@ -8503,9 +8590,9 @@ padding can all be used to give spacing to an element. Additionally, you
 can also set different units that will all have their own behavior. In
 most cases, it helps to be familiar with the unit of measurement in
 relation to the container type to avoid misconfigurations.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Relocating items </h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>🛸🙀</p>
 
 <p>Similar to the isolation of elements, you can move a certain element
@@ -8518,15 +8605,15 @@ first will be p before moving ‘outside’. When you change the position of
 the p from inside the .alpha class to some other position inside your
 code, it is easier to debug the source of the problem. This should be
 done on a case-specific basis.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Getting familiar with the box model </h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The box model is a very powerful source of information and can solve
 many issues with alignment. Using margin, padding and border is useful,
 but can be tricky and must be well understood.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Browser issues</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Many times, the styling you have renders correctly in the IDE but
 misbehaves in a browser. That is because browsers have their own default
 CSS stylesheets called user-agent styles. While modern-day browsers are
@@ -8535,9 +8622,9 @@ the browser's settings can be done with universal selectors, in such
 cases written at the top of the code, and will include properties such
 as ‘margin: 0px;’ to reset the margin values set by the browser by
 default.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Dev tools</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are lots of user-friendly tools available today that can help
 debug CSS. However, the best tool you can use is the one provided by the
 browsers, called the developer tools, or dev tools. You can find these
@@ -8547,9 +8634,9 @@ configuration options, but fundamentally they are similar. Browsers
 today are very powerful pieces of software. If you spend time exploring
 the options, you may not need any other additional tools or software for
 debugging CSS and other front-end languages.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>A couple of the important options you can find inside your browser include:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Sources: Lists the filenames such as HTML, and CSS files used by the webpage 
     that can be explored</li>
@@ -8644,9 +8731,9 @@ pages and exploring the dev tools is the best way to get better at
 debugging and CSS in general.</p>
 <p>In this reading, you learned about some of the fundamental tasks used
 to debug CSS.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Debugging tools</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Have you ever had a broken power outlet in your home, or maybe a
 light switch stopped working?</p>
 <p>When that happens, you usually call an electrician to come fix the
@@ -8713,9 +8800,9 @@ disposal to inspect and diagnose problems, and developer tools
 definitely make creating and maintaining webpages and web applications
 easier.</p>
 <p>The next reading, we'll explore developer tools in more detail.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Browser-specific CSS</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>One of the frustrations you're likely to run into will be
 compatibility issues that occur when rendering your CSS files on
 different browsers.</p>
@@ -8828,8 +8915,9 @@ on multiple browsers.</p>
 your CSS code to ensure it's compatible and works properly with
 particular browsers. Well done.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>What are some CSS bugs you have struggled with?</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now it's time to discuss some of the challenges that you had with
 your fellow learners.</p>
 
@@ -8839,9 +8927,9 @@ your fellow learners.</p>
   <li>What steps did you take to resolve the issue?</li>
   <li>Share your thoughts with your classmates!</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>UI testing</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>As you may have experienced when using different apps in your
 everyday life, first impressions matter, whether you are using an app to
 make a photo collage or to order food online.</p>
@@ -8916,7 +9004,9 @@ used to ensure customer satisfaction and what's more.</p>
 <p>You also learned about the web developer tools you can use to perform
 cross-device testing.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Case study: How Meta performs front-end testing</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>An untested application is a wildcard. You have no idea whether it
 works or it doesn't work.</p>
@@ -8982,9 +9072,9 @@ test is hard and take pride in writing tests in the same way, you'd take
 pride in building any of the products you want to build.</p>
 <p>Good luck in your first experience in testing, it's going to be very
 fundamental as you move forward in your career.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Module summary: Interactive CSS</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Congratulations. You've reached the end of this module on interactive
 CSS where you delve deeper into CSS by applying increasingly specific
 styling to various elements.</p>
@@ -9026,9 +9116,9 @@ issues.</p>
 applying CSS effects.</p>
 <p>You've done a great job so far, keep up the good work and continue
 progressing in your learning journey.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Additional resources</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The following resources will be helpful as additional references in
 dealing with the different concepts related to the topics you have
 covered in this lesson. </p>
@@ -9053,9 +9143,9 @@ covered in this lesson. </p>
   <li><a href="https://www.lambdatest.com/blog/top-5-browser-compatibility-issues-in-css-for-developers-in-2021/" 
     target="_blank" rel="noopener noreferrer">Commonly-occurring browser issues in CSS</a></li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Course recap</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Wow, you've made it to the end of the course. Why don't you take a moment to 
 congratulate yourself? After all, you've learned a lot in this course.</p>
 
@@ -9119,9 +9209,9 @@ and CSS developer, but you can be very proud of yourself for how much
 you've already learned and accomplished.
 It's been a pleasure to embark on this journey of discovery with
 you. Best of luck in the future.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>About the portfolio project</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>By completing the lessons in this course, you have acquired the
 necessary HTML and CSS skills and knowledge to develop a home page with
 a header, main content and footer.</p>
@@ -9148,25 +9238,25 @@ features of your project. This includes: selecting your fictional
 client, working out your layout, positioning the elements, planning the
 user experience, creating themes and setting up your local development
 environment.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What is the purpose of the portfolio project?</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The graded assessment will help you to establish which topics you
 have mastered, and which topics require further focus before you can
 complete the course. Ultimately, the graded assessment is designed to
 help you make sure that you are ready for the next course in this
 program. And even more, you get the opportunity to create another
 project for your portfolio.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How do I prepare for the graded portfolio project?</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You have encountered exercises, knowledge checks, in-video questions
 and other assessments as you have progressed through the course. Nothing
 in the graded assessment will be outside what you have covered already,
 so you should be well placed to succeed.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What will I be doing?</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The purpose of this graded assessment is to check your knowledge and
 understanding of the key learning objectives of this course. And what
 better way to do that than by applying your newly-learned skills in a
@@ -9186,8 +9276,9 @@ following:</p>
   <li>CSS effects</li>
 </ul>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Subject selection</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>For the graded assessment, you need to develop a home page for one of
 four fictional clients.</p>
 <p>As you read through the client personas included in this reading,
@@ -9213,6 +9304,7 @@ from. They are:</p>
   <li>Read on to find out more about them.</li>
 </ul>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Retail: Lucky Shrub</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 241. logo of the fictional client lucky shrub (244) ~~~~~~~~~~~~~~~~~~~~-->
@@ -9234,10 +9326,11 @@ creates and oversees all designs while managing his team of landscapers.
 Maria manages all the marketing for the company and oversees the
 nursery.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Download their logos here:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Lucky-Shrub-Logos</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Professional services: Hair Day</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 242. logo of the fictional client hair day (244) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9262,11 +9355,11 @@ She wanted to create a "treat yourself" environment for her clients.
 Pria opened the salon with her good friend and talented hairdresser,
 Garry. They have a staff of seven: two stylists, three colorists, one
 manicurist and one make-up artist.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Download their logos here:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><strong>Hair Day logos</strong></p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Restaurant: Little Lemon</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 243. logo of the fictional client little lemon (245) ~~~~~~~~~~~~~~~~~~~~-->
@@ -9288,13 +9381,13 @@ menu, Mario relies on family recipes and his experience as a chef in Italy. Adri
 does all the marketing for the restaurant and led the effort to expand the menu 
 beyond classic Italian to incorporate additional cuisines from the Mediterranean 
 region.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Download their logos here:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><strong>Little-Lemon-logos</strong></p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Luxury Jewelry: Mangata and Gallo</strong></h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Mangata and Gallo is a jewelry store that specializes in special
 occasions like engagements, weddings and anniversaries. The jewelry
 company primarily operates online and has a small storefront in Austin,
@@ -9310,11 +9403,11 @@ to e-commerce. However, she recently hired several artisans to help
 craft her designs and a young employee to help manage the company
 website and social media accounts.</p>
 <p>Download their logos here:</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Mangata and Gallo logos</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Selecting the subject and working out the layout</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You might recall learning about client personas earlier in the course.</p>
 <p>For the project, you have to choose one client persona to develop a home page for.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9386,9 +9479,9 @@ for the layout followed by the semantic structure and then the grid
 layout.</p>
 <p>In the next section, you'll learn how to start writing the HTML and CSS
 for the project.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Positioning the elements, creating placeholders (TEMPLATE)</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>When building a webpage, it's considered good practice to do the
 layout and positioning of your HTML elements before working on their
 visual styling.</p>
@@ -9587,14 +9680,15 @@ way, it means that your webpage has a good strong foundational layout to work fr
 and to which you can add the paint and decor, the visual styling of your webpage.
 It takes some time to practice building your HTML structure and setting up the 
 positioning of your elements.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Setting up your local development environment</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You have to use Visual Studio Code to complete your graded
 assessment. You have two options to do this.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Option 1: Use Visual Studio Code in-browser with Coursera Labs</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You can access the Visual Studio Code environment through the “
 Ungraded Lab Project sandbox” included in this lesson. Take note that
 the Project Sandbox only allows you to work for one hour at a time. Make
@@ -9608,9 +9702,9 @@ at the end of the session.</p>
 to your local machine and save them inside a project folder. Zip the
 project folder and upload it in the "My submission" area in the Peer
 review assessment later in this lesson.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Option 2: Work on your local device</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You can also choose to complete your graded assessment on your local
 machine if you prefer. This will require a few steps of set up in
 advance. First, you need to download the free IDE from Microsoft's website -
@@ -9671,9 +9765,9 @@ destination location and click next.</p>
 appears.</p>
 <p><strong>Step 8:</strong> Click finish once completed, and the
 application will launch.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Mac</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>Step 1:</b> Download the application based on the chipset you have. M1
 macs use Apple Silicon, and older Macs use Intel. If you are not sure,
 choose the Universal option.</p>
@@ -9692,24 +9786,25 @@ application link in Finder below.</p>
   title="Set up Visual Studio Code on Mac Step 4"
   alt="Set up Visual Studio Code on Mac Step 4." />
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Step 5: Open the app.</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Linux</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Please refer to the <a href="https://code.visualstudio.com/docs/setup/linux" 
   target="_blank" rel="noopener noreferrer">official Linux installation guide</a> 
   for Visual Studio Code.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Selecting a working directory</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now that you have Visual Studio Code set up, create a folder on your
 device that you'll use to do course exercises.</p>
 <p>Open Visual Studio Code, go to File and select Open Folder. Using the file browser, 
 select the folder you just created.</p>
 <p>Congratulations, you're set up now to begin writing some code.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Planning the user experience</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>A key part of building a website, is to ensure both a good user interface and a 
 good user experience.  But what's the difference between those two and what makes 
 them good or bad?</p>
@@ -9767,17 +9862,17 @@ How does client persona and intentional engagement, fit into your own
 UX design strategy?</p>
 
 <p>Answers to those questions will help you plan your process.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating themes</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The combination of colors used in the design of a website is called the color 
 scheme.  Colors are one of the most important components of any website today 
 because it sets the tone for the viewer.</p>
 <p>For the optimal use of colors, web developers make use of color
 theory and color schemes.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Color schemes</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Fundamentally all colors are a combination of the three colors: red, yellow, and 
 blue.  These are called the primary colors. Secondary colors like orange, purple 
 and green are a combination of two primary colors.</p>
@@ -9818,8 +9913,9 @@ These are:</p>
 href="https://www.moving.com/tips/how-to-choose-a-color-scheme-for-your-home/">
   How to choose a color scheme for your home</a></p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Using the color schemes</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Each of the different color schemes are used with the purpose of
 enhancing a website.  While you can pick any of the different schemes, a practiced UX
 designer will consider whether a specific type of color scheme is more
@@ -9833,9 +9929,9 @@ background.</p>
 <p>Other than the color schemes mentioned, even achromatic themes with
 only black and white color can be appealing if styling and design is
 well presented.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Factors to consider for themes and colors</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>While color schemes serve as a guide for picking website colors,
 there are some factors that must be considered in the process. The user
 experience must be of the utmost priority as a good webpage must be able
@@ -9865,9 +9961,9 @@ a process of trial and error, inspiration can be drawn from a webpage
 that has held a personal appeal. Color theory is an important aspect of
 the user experience domain and plays an important role in website design
 so don’t be afraid to experiment with different color schemes.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Congratulations, you have completed HTMLS and CSS in depth!</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Congratulations on reaching the end of this HTML and CSS in-depth
 course in the front-end developer program.</p>
 <p>You've worked hard to get here, learned a lot, and developed a lot of
@@ -9921,21 +10017,21 @@ continue your educational progress.</p>
 been a voyage of discovery.
 Best of luck, and do continue to pursue your own learning objectives
 to their final goal.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h6>The end…</h6>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>SUMMARY Coursera - HTML and CSS in Depth</h5>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Week 1 – HTML Deep Dive</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>HTML in depth</h5>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this module, you will use structured semantic data to control how
 web sites appear to the user. You will create semantic HTML to structure
 webpages to look good and work well.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>23 videos, 20 readings</h5>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
   <li><a href="https://www.coursera.org/lecture/html-and-css-in-depth/introduction-to-the-program-6j2oH" 
     target="_blank" rel="noopener noreferrer">Video: Introduction to the Program</a></li>
@@ -9982,16 +10078,16 @@ webpages to look good and work well.</p>
   <li>Video: Module summary: HTML deep dive</li>
   <li>Reading: Additional resources</li>
 </ol>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Week 2 - Interactive CSS</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Interactive CSS</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In week 2, we will dive deeper into CSS by applying
 increasingly specific styling to various elements.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>22 videos, 20 readings</h5>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
   <li><a href="https://www.coursera.org/lecture/html-and-css-in-depth/css-web-layout-qsWww" 
     target="_blank" rel="noopener noreferrer">Video: CSS web layout</a></li>
@@ -10037,15 +10133,15 @@ increasingly specific styling to various elements.</p>
   <li>Video: Module summary: Interactive CSS</li>
   <li>Reading: Additional resources</li>
 </ol>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Week 3 – Course Recap</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Graded Assessment</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In Week 3, we will be assessed on the key skills covered in the Course.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>6 videos, 5 readings</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
   <li><a href="https://www.coursera.org/lecture/html-and-css-in-depth/course-recap-qJl7p" 
     target="_blank" rel="noopener noreferrer">Video: Courserecap</a></li>
@@ -10060,9 +10156,9 @@ increasingly specific styling to various elements.</p>
   <li>Video: Congratulations, you have completed HTMLS and CSS in depth!</li>
   <li>Reading: Next steps</li>
 </ol>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Basic meta tags (meta tags For SEO)</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>&lt;meta name=”description”/&gt; - provides a brief description of the web 
     page,</li>
@@ -10086,9 +10182,9 @@ increasingly specific styling to various elements.</p>
   <li>&lt;meta name="copyright" content="Copyright 2022"&gt; - specifies a 
     Copyright.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>&lt;meta http-equiv="..."/&gt; tags</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>&lt;meta http-equiv="content-type" content="text/html"&gt; - specifies the format of 
     the document returned by the server,</li>
@@ -10100,9 +10196,9 @@ increasingly specific styling to various elements.</p>
   <li>&lt;meta http-equiv="Cache-Control" content="no-cache"&gt; - instructs the 
     browser how to cache your page.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Responsive design/mobile meta tags</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>&lt;meta name="format-detection" content="telephone=yes"/&gt; - indicates that 
     telephone numbers should appear as hypertext links that can be clicked to make 
@@ -10116,9 +10212,10 @@ increasingly specific styling to various elements.</p>
 <p>the end...</p>
 
 <footer>
-  <h6>Last updated 12/21/23 6:54pm</h6>
-  <h6>Last updated 3/12/24 5:08pm - Tuesday</h6>
-  <h6>Last updated 6/15/24 6:38pm - Saturday</h6>
+  <h6>Last updated 12/21/23 6:54pm<br>
+  Last updated 3/12/24 5:08pm - Tuesday<br>
+  Last updated 6/15/24 6:38pm - Saturday<br>
+  Last updated 10/20/25 12:05pm - Tuesday</h6>
 </footer>
 
 </body>
