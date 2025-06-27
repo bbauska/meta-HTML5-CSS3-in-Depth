@@ -14,7 +14,7 @@
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <meta name="title" content="Meta HTML/CSS in Depth"/>
 <meta name="description" content="Meta Coursera in depth description and educational source. 
-Sponsored by Meta. Taught by Coursera. HTML and CSS in Depth."/>
+  Sponsored by Meta. Taught by Coursera. HTML and CSS in Depth."/>
 <meta name="keywords" content="Silus,Gaming,World,meta,HTML,CSS,in,depth,meta HTML css in Depth" />
 
 <!-- favicon images -->
@@ -1273,16 +1273,16 @@ practices.</p>
 <p>This displays a clickable button and it’s mostly used in HTML forms
 to activate a script when clicked.
 
-<pre>  &lt;input type="button" value="Click me" onclick="msg()"/&gt;</pre>
+<pre>&lt;input type="button" value="Click me" onclick="msg()"/&gt;</pre>
 
 <p>Keep in mind you can also define buttons with the
 <b>&lt;button&gt;</b> tag, with the added benefit of being
 able to place content like text or images inside the tag.</p>
 
-<pre>  &lt;button onclick="alert('Are you sure you want to continue?')"&gt;
-    &lt;img src="https://yourserver.com/button_img.jpg"
-      alt="Submit the form" height="64" width="64"&gt;
-  &lt;/button&gt;</pre>
+<pre>&lt;button onclick="alert('Are you sure you want to continue?')"&gt;
+  &lt;img src="https://yourserver.com/button_img.jpg"
+    alt="Submit the form" height="64" width="64"&gt;
+&lt;/button&gt;</pre>
 
 <h4>Checkbox</h4>
 
@@ -1290,10 +1290,10 @@ able to place content like text or images inside the tag.</p>
 deselected. They are used to let a user select one or more options of a
 limited number of choices.</p>
 
-<pre>  &lt;input type="checkbox" id="dog" name="dog" value="Dog"&gt;
-  &lt;label for="dog"&gt;I like dogs&lt;/label&gt;
-  &lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;
-  &lt;label for="cat"&gt;I like cats&lt;/label&gt;</pre>
+<pre>&lt;input type="checkbox" id="dog" name="dog" value="Dog"&gt;
+&lt;label for="dog"&gt;I like dogs&lt;/label&gt;
+&lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;
+&lt;label for="cat"&gt;I like cats&lt;/label&gt;</pre>
 
 <h4>Radio</h4>
 
@@ -1302,10 +1302,10 @@ out of multiple choices. They are normally presented in radio groups,
 which is a collection of radio buttons describing a set of related
 options that share the same "name" attribute.</p>
 
-<pre>  &lt;input type="radio" id="light" name="theme" value="Light"&gt;
-  &lt;label for="light"&gt;Light&lt;/label&gt;
-  &lt;input type="radio" id="dark" name="theme" value="Dark"&gt;
-  &lt;label for="dark"&gt;Dark&lt;/label&gt;</pre>
+<pre>&lt;input type="radio" id="light" name="theme" value="Light"&gt;
+&lt;label for="light"&gt;Light&lt;/label&gt;
+&lt;input type="radio" id="dark" name="theme" value="Dark"&gt;
+&lt;label for="dark"&gt;Dark&lt;/label&gt;</pre>
 
 <h4>Submit</h4>
 
@@ -1313,40 +1313,40 @@ options that share the same "name" attribute.</p>
 to a form-handler, typically a server. The form-handler is specified in
 the form’s "action" attribute:</p>
 
-<pre>  &lt;form action="myserver.com" method="POST"&gt;
-    …
-    &lt;input type="submit" value="Submit" /&gt;
-  &lt;/form&gt;</pre>
+<pre>&lt;form action="myserver.com" method="POST"&gt;
+  …
+  &lt;input type="submit" value="Submit" /&gt;
+&lt;/form&gt;</pre>
 
 <h4>Text</h4>
 
 <p>Defines a basic single-line text field that a user can enter text into. </p>
 
-<pre>  &lt;label for="fname"&gt;First name:&lt;/label&gt; 
-  &lt;input type="text" id="fname" name="fname"&gt;</pre>
+<pre>&lt;label for="fname"&gt;First name:&lt;/label&gt; 
+&lt;input type="text" id="fname" name="fname"&gt;</pre>
 
 <h4>Password</h4>
 
 <p>Defines a single-line text field whose value is obscured, suited for
 sensitive information like passwords.</p>
 
-<pre>  &lt;label for="pwd"&gt;Password:&lt;/label&gt; 
-  &lt;input type="password" id="pwd" name="pwd"&gt;</pre>
+<pre>&lt;label for="pwd"&gt;Password:&lt;/label&gt; 
+&lt;input type="password" id="pwd" name="pwd"&gt;</pre>
 
 <h4>Date</h4>
 
 <p>Displays a control for entering a date with no time (year, month and day).</p>
 
-<pre>  &lt;label for="dob"&gt;Date of birth:&lt;/label&gt;
-  &lt;input type="date" id="dob" name="date of birth"&gt;</pre>
+<pre>&lt;label for="dob"&gt;Date of birth:&lt;/label&gt;
+&lt;input type="date" id="dob" name="date of birth"&gt;</pre>
 
 <h4>Datetime-local</h4>
 
 <p>Defines a control for entering a date and time, including the year,
 month and day, as well as the time in hours and minutes.</p>
 
-<pre>  &lt;label for="birthdaytime"&gt;Birthday (date and time):&lt;/label&gt;
-  &lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;</pre>
+<pre>&lt;label for="birthdaytime"&gt;Birthday (date and time):&lt;/label&gt;
+&lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;</pre>
 
 <h4>Email</h4>
 
@@ -1354,8 +1354,8 @@ month and day, as well as the time in hours and minutes.</p>
 input, with the addition that it validates automatically when submitted
 to the server.</p>
 
-<pre>  &lt;label for="email"&gt;Enter your email:&lt;/label&gt;
-  &lt;input type="email" id="email" name="email"&gt;</pre>
+<pre>&lt;label for="email"&gt;Enter your email:&lt;/label&gt;
+&lt;input type="email" id="email" name="email"&gt;</pre>
 
 <h4>File</h4>
 
@@ -1364,7 +1364,7 @@ their computer. To define the types of files permissible you can use the
 "accept" attribute. Also, to enable multiple files to be selected, add
 the "multiple" attribute.</p>
 
-<pre>  &lt;label for="myfile"&gt;Select a file:&lt;/label&gt;
+<pre>&lt;label for="myfile"&gt;Select a file:&lt;/label&gt;
   &lt;input type="file" id="myfile" name="myfile"&gt;</pre>
 
 <h4>Hidden</h4>
@@ -1372,14 +1372,14 @@ the "multiple" attribute.</p>
 <p>Defines a control that is not displayed but whose value is still
 submitted to the server.</p>
 
-<pre>  &lt;input type="hidden" id="custId" name="custId" value="3487"&gt;</pre>
+<pre>&lt;input type="hidden" id="custId" name="custId" value="3487"&gt;</pre>
 
 <h4>Image</h4>
 
 <p>Defines an image as a graphical submit button. You should use the
 “src” attribute to point to the location of your image file.</p>
 
-<pre>  &lt;input type="image"src="submit_img.png" alt="Submit" width="48" height="48"&gt;</pre>
+<pre>&lt;input type="image"src="submit_img.png" alt="Submit" width="48" height="48"&gt;</pre>
 
 <h4><b>Number</b></h4>
 
@@ -1387,7 +1387,7 @@ submitted to the server.</p>
 specify restrictions, such as min and max values allowed, number
 intervals or a default value.</p>
 
-<pre>  &lt;input type="number" id="quantity" name="quantity" min="1" max="5"&gt;</pre>
+<pre>&lt;input type="number" id="quantity" name="quantity" min="1" max="5"&gt;</pre>
 
 <h4><b>Range</b></h4>
 
@@ -1396,15 +1396,15 @@ The precise value, however, is not considered important. This is
 typically represented using a slider or dial control. To define the
 range of acceptable values, use the “min” and “max” properties.</p>
 
-<pre>  &lt;label for="volume"&gt;Volume:&lt;/label&gt;
-  &lt;input type="range" id="volume" name="volume" min="0" max="10"&gt;</pre>
+<pre>&lt;label for="volume"&gt;Volume:&lt;/label&gt;
+&lt;input type="range" id="volume" name="volume" min="0" max="10"&gt;</pre>
 
 <h4>Reset</h4>
 
 <p>Displays a button that resets the contents of the form to their
 default values.</p>
 
-<pre>  &lt;input type="reset"&gt;</pre>
+<pre>&lt;input type="reset"&gt;</pre>
 
 <h4>Search</h4>
 
@@ -1412,16 +1412,16 @@ default values.</p>
 functionally identical to text inputs, but may be styled differently
 depending on the browser.</p>
 
-<pre>  &lt;label for="gsearch"&gt;Search in Google:&lt;/label&gt;
-  &lt;input type="search" id="gsearch" name="gsearch"&gt;</pre>
+<pre>&lt;label for="gsearch"&gt;Search in Google:&lt;/label&gt;
+&lt;input type="search" id="gsearch" name="gsearch"&gt;</pre>
 
 <h4>Time</h4>
 
 <p>Displays a control for entering a time value in hours and minutes,
 with no time zone.</p>
 
-<pre>  &lt;label for="appt"&gt;Select a time:&lt;/label&gt;
-  &lt;input type="time" id="appt" name="appt"&gt;</pre>
+<pre>&lt;label for="appt"&gt;Select a time:&lt;/label&gt;
+&lt;input type="time" id="appt" name="appt"&gt;</pre>
 
 <h4 id="tel"><b>Tel</b></h4>
 
@@ -1429,8 +1429,8 @@ with no time zone.</p>
 not support “tel” fall back to standard text input. You can optionally
 use the "pattern" field to perform validation.</p>
 
-<pre>  &lt;label for="phone"&gt;Enter your phone number:&lt;/label&gt;
-  &lt;input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"&gt;</pre>
+<pre>&lt;label for="phone"&gt;Enter your phone number:&lt;/label&gt;
+&lt;input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"&gt;</pre>
 
 <h4><b>Url</b></h4>
 
@@ -1438,8 +1438,8 @@ use the "pattern" field to perform validation.</p>
 input, but performs automatic validation before being submitted to the
 server.</p>
 
-<pre>  &lt;label for="homepage"&gt;Add your homepage:&lt;/label&gt;
-  &lt;input type="url" id="homepage" name="homepage"&gt;</pre>
+<pre>&lt;label for="homepage"&gt;Add your homepage:&lt;/label&gt;
+&lt;input type="url" id="homepage" name="homepage"&gt;</pre>
 
 <h4><b>Week</b></h4>
 
@@ -1447,8 +1447,8 @@ server.</p>
 number and a year, with no time zone. Keep in mind that this is a newer
 type that is not supported by all the browsers.</p>
 
-<pre>  &lt;label for="week"&gt;Select a week:&lt;/label&gt;
-  &lt;input type="week" id="week" name="week"&gt;</pre>
+<pre>&lt;label for="week"&gt;Select a week:&lt;/label&gt;
+&lt;input type="week" id="week" name="week"&gt;</pre>
 
 <h4><b>Month</b></h4>
 
@@ -1456,8 +1456,8 @@ type that is not supported by all the browsers.</p>
 Keep in mind that this is a newer type that is not supported by all the
 browsers.</p>
 
-<pre>  &lt;label for="bdaymonth"&gt;Birthday (month and year):&lt;/label&gt;
-  &lt;input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01"&gt;</pre>
+<pre>&lt;label for="bdaymonth"&gt;Birthday (month and year):&lt;/label&gt;
+&lt;input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01"&gt;</pre>
 
 <h4>Creating a form</h4>
 
@@ -2305,8 +2305,8 @@ username and password to a web server to log you into your account.</p>
 <p>As you know by now, you add a form to your web page using the form
 tag.</p>
 
-<pre>  &lt;form&gt;
-  &lt;/form&gt;</pre>
+<pre>&lt;form&gt;
+&lt;/form&gt;</pre>
 
 <p>But how the form is submitted is determined by two essential
 attributes: action and method.</p>
@@ -2314,8 +2314,8 @@ attributes: action and method.</p>
 sent. This is address is location of server-side code that will process
 the request.</p>
 
-<pre>  &lt;form action="/login"&gt;
-  &lt;/form&gt;</pre>
+<pre>&lt;form action="/login"&gt;
+&lt;/form&gt;</pre>
 
 <p>It is important to note that action can be a full URL address such as
 <strong>https://meta.com</strong>, an absolute path such as
@@ -2338,10 +2338,10 @@ href="https://meta.com/company-info/login"><strong>https://meta.com/company-info
 <p>The method attribute specifies which HTTP method is used to submit
 the form; GET or POST.</p>
 
-<pre>  &lt;form method="get"&gt;
-  &lt;/form&gt;
-  &lt;form method="post"
-  &lt;/form&gt;</pre>
+<pre>&lt;form method="get"&gt;
+&lt;/form&gt;
+&lt;form method="post"
+&lt;/form&gt;</pre>
 
 <p>The form will default to the HTTP GET method when the method
 attribute is not provided.</p>
@@ -2481,7 +2481,7 @@ checkbox, date, email, number, password, submit, text,</strong> and
 <strong>url</strong>. These values dictate the appearance of the
 element. For example, this code:</p>
 
-<pre>  &lt;form action="my_action_page"&gt;
+<pre>&lt;form action="my_action_page"&gt;
     &lt;label for="uname"&gt;Username:&lt;/label&gt;
     &lt;br&gt;
     &lt;input type="text" id="uname" name="username"&gt;
@@ -2491,7 +2491,7 @@ element. For example, this code:</p>
     &lt;input type="password" id="pwd" name="pwd"&gt;
     &lt;br&gt;&lt;br&gt;
     &lt;input type="submit" value="Login"&gt;
-  &lt;/form&gt;</pre>
+&lt;/form&gt;</pre>
 
 <p>Results in the following output:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2543,8 +2543,8 @@ include:</p>
   <li>The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:</li>
 </ul>
 
-<pre>  &lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
-  &lt;/textarea&gt;</pre>
+<pre>&lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
+&lt;/textarea&gt;</pre>
 
 <h4>&lt;button&gt;</h4>
 
@@ -2552,8 +2552,8 @@ include:</p>
 defines the behavior when the button is clicked by the user. For
 example, in the code below, an alert message is shown to the user.</p>
 
-<pre>  &lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
-  &lt;/button&gt;</pre>
+<pre>&lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
+&lt;/button&gt;</pre>
 
 <h3>&lt;fieldset&gt; </h3>
 
@@ -2566,21 +2566,20 @@ qualification can be grouped separately in two field sets.</p>
 <p>Defines a caption for the <strong>&lt;fieldset&gt;</strong> element.
 For example:</p>
 
-<pre>  &lt;fieldset&gt;
-    &lt;legend&gt;Personal Info&lt;/legend&gt;
-    &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
-    &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;
-  &lt;/fieldset&gt;
-
-  &lt;fieldset&gt;
-    &lt;legend&gt;Qualificaiton&lt;/legend&gt;
-    &lt;label for="pdegree"&gt;Primary degree:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt;
-    &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt;
-  &lt;/fieldset&gt;</pre>
+<pre>&lt;fieldset&gt;
+  &lt;legend&gt;Personal Info&lt;/legend&gt;
+  &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
+  &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;
+&lt;/fieldset&gt;
+&lt;fieldset&gt;
+  &lt;legend&gt;Qualificaiton&lt;/legend&gt;
+  &lt;label for="pdegree"&gt;Primary degree:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt;
+  &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt;
+&lt;/fieldset&gt;</pre>
 
 <h3>&lt;datalist&gt;</h3>
 
@@ -2588,18 +2587,18 @@ For example:</p>
 differs from <strong>&lt;select&gt;</strong> since the user can still
 provide textual or numeric input other than the listed options.</p>
 
-<pre>  &lt;form action="/my_action_page"&gt;
-    &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt;
-    &lt;input list="flowers" name="flowers"&gt;
-    &lt;datalist id="flowers"&gt;
-      &lt;option value="Rose"&gt;
-      &lt;option value="Lily"&gt;
-      &lt;option value="Tulip"&gt;
-      &lt;option value="Daffodil"&gt;
-      &lt;option value="Orchid"&gt;
-    &lt;/datalist&gt;
+<pre>&lt;form action="/my_action_page"&gt;
+  &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt;
+  &lt;input list="flowers" name="flowers"&gt;
+  &lt;datalist id="flowers"&gt;
+    &lt;option value="Rose"&gt;
+    &lt;option value="Lily"&gt;
+    &lt;option value="Tulip"&gt;
+    &lt;option value="Daffodil"&gt;
+    &lt;option value="Orchid"&gt;
+  &lt;/datalist&gt;
     ...
-  &lt;/form&gt;</pre>
+&lt;/form&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 82. datalist input type with drop-down menu (71) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -2620,13 +2619,13 @@ script) or the outcome of the user action.</p>
 demonstrates how a simple list can be defined, with the rendered view
 below the code block.</p>
 
-<pre>  &lt;label for="course"&gt;Choose a course:&lt;/label&gt;&lt;br&gt;
-  &lt;select id="course" name="courselist"&gt;
-    &lt;option value="html"&gt;HTML Introduction&lt;/option&gt;
-    &lt;option value="css"&gt;Styling with CSS&lt;/option&gt;
-    &lt;option value="js"&gt;JavaScript&lt;/option&gt;
-    &lt;option value="react"&gt;React Basics&lt;/option&gt;
-  &lt;/select&gt;</pre>
+<pre>&lt;label for="course"&gt;Choose a course:&lt;/label&gt;&lt;br&gt;
+&lt;select id="course" name="courselist"&gt;
+  &lt;option value="html"&gt;HTML Introduction&lt;/option&gt;
+  &lt;option value="css"&gt;Styling with CSS&lt;/option&gt;
+  &lt;option value="js"&gt;JavaScript&lt;/option&gt;
+  &lt;option value="react"&gt;React Basics&lt;/option&gt;
+&lt;/select&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 83. option input type with drop-down list (71) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -2871,10 +2870,10 @@ tags to provide a description of the image. The <strong>&lt;img&gt;</strong>
 tag is added inside the <strong>&lt;figure&gt;</strong> tag and the
 <strong>&lt;figcaption&gt;</strong> is specified after it.</p>
 
-<pre>  &lt;figure&gt;
-    &lt;img src="photo.png" width="320" alt="My Profile Photo"&gt;
-    &lt;figcaption&gt;A photo of myself on a beach in 2015&lt;/figcaption&gt;
-  &lt;/figure&gt;</pre>
+<pre>&lt;figure&gt;
+  &lt;img src="photo.png" width="320" alt="My Profile Photo"&gt;
+  &lt;figcaption&gt;A photo of myself on a beach in 2015&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
 
 <p>One last thing to note is that like videos and audio, the web browser
 only supports specific file types. These file types are:</p>
@@ -3034,8 +3033,8 @@ are applied. To apply more than one permission, use a space-separated
 list. For example, the following would allow form submission and scripts
 while keeping other restrictions active:</p>
 
-<pre>  &lt;iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts"&gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts"&gt;
+&lt;/iframe&gt;</pre>
 
 <h4>src</h4>
 
@@ -3051,8 +3050,8 @@ override the <strong>src</strong> attribute. For instance, the following
 code will display "My inline html" in the frame, instead of loading
 <strong>my_iframe_src.html</strong>.</p>
 
-<pre>  &lt;iframe src="my_iframe_src.html" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="my_iframe_src.html" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt;
+&lt;/iframe&gt;</pre>
 
 <h4>loading</h4>
 
@@ -3063,8 +3062,8 @@ allows you to defer loading iframe content if it is further down your
 web page and outside of the display area when the page is initially
 loaded.</p>
 
-<pre>  &lt;iframe src="my_iframe_src.html" loading="lazy" &gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="my_iframe_src.html" loading="lazy" &gt;
+&lt;/iframe&gt;</pre>
 
 <h4>title</h4>
 
@@ -3072,8 +3071,8 @@ loaded.</p>
 accessibility purposes. The value of this attribute should accurately
 describe the iframe's content.</p>
 
-<pre>  &lt;iframe src="history.html" title="An embedded document about the history of my family" &gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="history.html" title="An embedded document about the history of my family" &gt;
+&lt;/iframe&gt;</pre>
 
 <h4>iFrame as a picture</h4>
 
@@ -3472,26 +3471,26 @@ href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-term
 
 <h4>Original HTML code:</h4>
 
-<pre>  &lt;body&gt;
-    &lt;div class="flex-container"&gt;
-      &lt;div class="box box1"&gt;  One..&lt;/div&gt;
-      &lt;div class="box box2"&gt;  Two..&lt;/div&gt;
-      &lt;div class="box box3"&gt;  Three..&lt;/div&gt;
-      &lt;div class="box box4"&gt;  Four..&lt;/div&gt;
-      &lt;div class="box box5"&gt;  Five..&lt;/div&gt;
-      &lt;div class="box box6"&gt;  Six..&lt;/div&gt;
-      &lt;div class="box box7"&gt;  Seven..&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;</pre>
+<pre>&lt;body&gt;
+  &lt;div class="flex-container"&gt;
+    &lt;div class="box box1"&gt;  One..&lt;/div&gt;
+    &lt;div class="box box2"&gt;  Two..&lt;/div&gt;
+    &lt;div class="box box3"&gt;  Three..&lt;/div&gt;
+    &lt;div class="box box4"&gt;  Four..&lt;/div&gt;
+    &lt;div class="box box5"&gt;  Five..&lt;/div&gt;
+    &lt;div class="box box6"&gt;  Six..&lt;/div&gt;
+    &lt;div class="box box7"&gt;  Seven..&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;</pre>
 
 <h4>Original CSS file: </h4>
 
-<pre>  .box{
-    background-color: aquamarine;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 10px;
-  }</pre>
+<pre>.box{
+  background-color: aquamarine;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3510,14 +3509,13 @@ have the box class. Note how two class names are given for each of the
 tags, one that is common among all classes and another independent of
 it. The style is applied to all the containers.</p>
 
-<p>Now let’s add properties to the flex container by converting it into
-flex.</p>
+<p>Now let’s add properties to the flex container by converting it into flex.</p>
 
 <h4>display: flex;</h4>
 
-<pre>  .flex-container{
-    display: flex;
-  }</pre>
+<pre>.flex-container{
+  display: flex;
+}</pre>
 
 <p>The output is now seven flex containers that run from left to right
 starting in the top left corner.</p>
@@ -3550,10 +3548,10 @@ inside it:</p>
 
 <h4>CSS:</h4>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center
-  }</pre>
+<pre>.flex-container{
+  display: flex;
+  justify-content: center
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3570,11 +3568,11 @@ inside it:</p>
 <p>The default for this property is ‘nowrap’ which means the items will
 span the entire width of the axis.</p>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }</pre>
+<pre>.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3596,12 +3594,12 @@ horizontal rows to vertical columns.</p>
 
 <h5>CSS Code:</h5>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }</pre>
+<pre>.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3625,13 +3623,13 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:flex-end;
-  }</pre>
+<pre>.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:flex-end;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3649,17 +3647,17 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 
 <p>This property can be used on individual items inside the flex.</p>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:flex-end;
-  }
-  .box3{
-    background-color: blanchedalmond;
-    align-self: center;
-  }</pre>
+<pre>.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:flex-end;
+}
+.box3{
+  background-color: blanchedalmond;
+  align-self: center;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3682,18 +3680,18 @@ columns using row-gap and column-gap properties.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:flex-end;
-    gap:10px;
-  }
-  .box3{
-    background-color: blanchedalmond;
-    align-self: center;
-  }</pre>
+<pre>.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:flex-end;
+  gap:10px;
+}
+.box3 {
+  background-color: blanchedalmond;
+  align-self: center;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3717,9 +3715,9 @@ empty in shorthand notation are given their default values.</p>
 
 <h4>For example:</h4>
 
-<pre>  .flex-container{
-    flex: 0 1 auto;
-  }</pre>
+<pre>.flex-container {
+  flex: 0 1 auto;
+}</pre>
 
 <p>Here for the flex-container class, there is a set rule for the flex
 property. The values correspond to the three properties, namely the
@@ -3748,11 +3746,11 @@ inside the flex item box3 class.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>  .box3{
-    background-color: blanchedalmond;
-    align-self: center;
-    flex: 1 1 auto;
-  }</pre>
+<pre>.box3 {
+  background-color: blanchedalmond;
+  align-self: center;
+  flex: 1 1 auto;
+}</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4579,9 +4577,9 @@ and effort.</p>
 
 <p>The syntax for creating a grid:</p>
 
-<pre>  selector{
-    display: grid; /* or inline-grid */
-  }</pre>
+<pre>selector {
+  display: grid; /* or inline-grid */
+}</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 &lt;img src="./images/image140.wmf" /&gt;
@@ -4722,9 +4720,9 @@ above */</strong></p>
 
 <p>The syntax for creating a flexbox:</p>
 
-<pre>  selector{
-    display: flex | inline-flex
-  }</pre>
+<pre>selector {
+  display: flex | inline-flex
+}</pre>
 
 <p>Here the selector can refer to any of the following flex
 attributes</p>
@@ -5013,36 +5011,35 @@ conventionally. Let's examine an example.</p>
 
 <h4>HTML Code:</h4>
 
-<pre>  &lt;head&gt;
-    &lt;link rel="stylesheet" href="gridta.css"&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;header&gt; Header &lt;/header&gt;
-    &lt;nav class="nav-bar"&gt; Navigation &lt;/nav&gt;
-    &lt;main&gt; Main area &lt;/main&gt;
-    &lt;footer&gt; Footer &lt;/footer&gt;
-  &lt;/body&gt;</pre>
+<pre>&lt;head&gt;
+  &lt;link rel="stylesheet" href="gridta.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt; Header &lt;/header&gt;
+  &lt;nav class="nav-bar"&gt; Navigation &lt;/nav&gt;
+  &lt;main&gt; Main area &lt;/main&gt;
+  &lt;footer&gt; Footer &lt;/footer&gt;
+&lt;/body&gt;</pre>
 
 <h4>CSS Code:</h4>
 
-<pre>  body {
-    display: grid;
-    height: 200px;
-    grid-template-areas: "head head"
-                         "nav  main"
-                         "footer  footer";
-    grid-template-rows: 30px 1fr 30px;
-    grid-template-columns: 150px 1fr;
-  }
-  header {
-    grid-area: head;
-    background-color: lightsalmon;
-  }
-  .nav-bar {
-    grid-area: nav;
-    background-color: lightblue;
-  }</pre>
+<pre>body {
+  display: grid;
+  height: 200px;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "footer  footer";
+  grid-template-rows: 30px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+header {
+  grid-area: head;
+  background-color: lightsalmon;
+}
+.nav-bar {
+  grid-area: nav;
+  background-color: lightblue;
+}</pre>
  
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5062,9 +5059,9 @@ are distributed is according to how you have defined the names inside
 the grid-template-areas property. In the example above the relevant code
 is:</p>
 
-<pre>  grid-template-areas: "head head"
-                       "nav  main"
-                       "footer  footer";</pre>
+<pre>grid-template-areas: "head head"
+                     "nav  main"
+                     "footer  footer";</pre>
 
 <p>The ‘head’ is written twice to imply two columns and the rest of the
 content follows the usual convention.
@@ -5086,9 +5083,9 @@ distributed proportionately.</p>
 <p>Let’s return to the example.
 If you keep all other properties the same but you change the grid-template-areas as follows:</p>
 
-<pre>  grid-template-areas: "head head head"
-                       "nav  main main"
-                       "footer footer footer";</pre>
+<pre>grid-template-areas: "head head head"
+                     "nav  main main"
+                     "footer footer footer";</pre>
 
 <p>The output will remain the same as you have fixed the value of the
 third row to “30px”.</p>
@@ -5444,8 +5441,8 @@ irrespective of other rules. </p>
 <p>For example, take these two rules that create a conflict in color
 styling for a p tag:</p>
 
-<pre>  &lt;p style=“color: white;”&gt;
-    p{color: blue}</pre>
+<pre>&lt;p style=“color: white;”&gt;
+  p{color: blue}</pre>
 
 <p>The p tag will be colored white because it is declared inside the
 inline tag. </p>
@@ -5457,7 +5454,7 @@ represented by ‘#’.</p>
 
 <p>For example:</p>
 
-<pre>  #div</pre>
+<pre>#div</pre>
 
 <h4>Classes, attributes, and pseudo-classes</h4>
 
@@ -5466,9 +5463,9 @@ is called the pseudo-classes that you will soon learn more about. </p>
 
 <h4>For example:</h4>
 
-<pre>  .my-class
-    p[“attribute”]
-    div:hover</pre>
+<pre>.my-class
+  p[“attribute”]
+  div:hover</pre>
 
 <h4>Elements and pseudo-elements</h4>
 
@@ -5488,9 +5485,9 @@ precedence of CSS rules and to control the outcome of their web pages.
 Let’s explore a practical example of how to determine the score of a
 few selectors.</p>
 
-<pre>  #hello {} will be 0100
-    div {} will be 0001 and
-    div p.foo {} will be 0012</pre>
+<pre>#hello {} will be 0100
+  div {} will be 0001 and
+  div p.foo {} will be 0012</pre>
 
 <p>In the order stated above, the four categories will be assigned
 values 1000, 100, 10 and 1 with the element selectors having the lowest
@@ -5505,12 +5502,12 @@ to keep the focus on the selectors only.</p>
 
 <h4>Example 1</h4>
 
-<pre>  p {}
-    div p {}
-    div p.foo {}
-  p  =&gt; 1 element =&gt;  0 0 0 1 =&gt; Score: 1
-    div p =&gt; 2 elements =&gt; 0 0 0 2 =&gt; Score: 2
-    div p.foo {} =&gt; 2 elements and 1 class selector =&gt; 0 0 1 2 =&gt; Score: 12</pre>
+<pre>p {}
+  div p {}
+  div p.foo {}
+p  =&gt; 1 element =&gt;  0 0 0 1 =&gt; Score: 1
+  div p =&gt; 2 elements =&gt; 0 0 0 2 =&gt; Score: 2
+  div p.foo {} =&gt; 2 elements and 1 class selector =&gt; 0 0 1 2 =&gt; Score: 12</pre>
 
 <p>The third case has a total of 12 for the p tag and so has the highest
 specificity. The rules for the other two cases are then overridden and
@@ -5518,9 +5515,9 @@ the rules inside the third case are applied.</p>
 
 <h4>Example 2</h4>
 
-<pre>  p#bar =&gt; 1 element &amp; 1 ID =&gt;  0 1 0 1 =&gt; Score: 101
-  p.foo =&gt; 1 element &amp; 1 class =&gt; 0 0 1 1 =&gt; Score: 11
-  p.p.foo =&gt; 1 element &amp; 2 class =&gt;  0 0 2 1 =&gt; Score: 21</pre>
+<pre>p#bar =&gt; 1 element &amp; 1 ID =&gt;  0 1 0 1 =&gt; Score: 101
+p.foo =&gt; 1 element &amp; 1 class =&gt; 0 0 1 1 =&gt; Score: 11
+p.p.foo =&gt; 1 element &amp; 2 class =&gt;  0 0 2 1 =&gt; Score: 21</pre>
 
 <p>By now it should be clear that the case containing ID has a much
 higher score and the rules inside it will be applied. </p>
@@ -5969,55 +5966,44 @@ of a pseudo-element.</p>
 
 <h4>Syntax</h4>
 
-<pre>  selector::pseudo-element {
-    property: value;
-  }</pre>
+<pre>selector::pseudo-element {
+  property: value;
+}</pre>
 
 <p>It is important to note that pseudo-elements use two colon characters
 instead of one.</p>
 <p>Now, let’s explore some examples of popular pseudo-elements.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>::first-letter</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>You can use first-letter to change the color of just the first letter
 of each of the three points in the example text.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  &lt;!DOCTYPE html&gt;
-    &lt;html&gt;
-      &lt;head&gt;
-        &lt;link rel="stylesheet" href="pseudo4.css"&gt;
-      &lt;/head&gt;
-    &lt;body&gt; 
-      &lt;ul&gt;
-        &lt;li&gt; Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. &lt;/li&gt; 
-            &lt;li&gt;The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.&lt;/li&gt; 
-        &lt;li&gt;
+<pre>&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;link rel="stylesheet" href="pseudo4.css"&gt;
+    &lt;/head&gt;
+  &lt;body&gt; 
+    &lt;ul&gt;
+      &lt;li&gt; Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. &lt;/li&gt; 
+          &lt;li&gt;The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.&lt;/li&gt; 
+      &lt;li&gt;
         Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.&lt;/li&gt; 
-      &lt;/ul&gt;
-    &lt;/body&gt; 
-  &lt;/html&gt;</pre>
-
+    &lt;/ul&gt;
+  &lt;/body&gt; 
+&lt;/html&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  li::first-letter { 
- 
+<pre>li::first-letter { 
   color:coral; 
- 
   font-size: 1.3em; 
- 
   font-weight: bold; 
- 
   line-height: 1; 
-  }</pre>
-
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6041,16 +6027,14 @@ points to light sea green.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  ul{
-    list-style-type: none;
-  }
- 
-  li::first-line {
-    color: lightseagreen;
-    text-decoration: underline;
-    line-height: 1;
-  }</pre>
-
+<pre>ul {
+  list-style-type: none;
+}
+li::first-line {
+  color: lightseagreen;
+  text-decoration: underline;
+  line-height: 1;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6083,30 +6067,25 @@ viewport.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>::selection</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>Selection is another useful pseudo-element. For example, you may use
 it when you are taking notes on your device because it allows you to
 highlight specific text. The effect of it becomes obvious only after the
 user selects content. On web pages today, you will typically see
 inverted colors from white-black to black-white when selecting a portion
 of text.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  ul{
-    list-style-type: none;
-  }
- 
-  li::selection {
-    color:brown;
-    background-color: antiquewhite;
-    line-height: 1;
-  }</pre>
+<pre>ul {
+  list-style-type: none;
+}
+li::selection {
+  color:brown;
+  background-color: antiquewhite;
+  line-height: 1;
+}</pre>
 
 <p>Here is an example of a selection of text.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6134,22 +6113,19 @@ selected and highlighted.</p>
 
 <p>Different segments of the text are highlighted depending on the text
 that is selected at any given point.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>::marker </h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>Markers are typically used to add style elements to a list, for
 instance, to color bullet points. For example, you can enhance the user
 experience when you use a marker in the following way.</p>
 
-<pre>  CSS code:
-  li::marker {
-    color: cornflowerblue;
-    content: '&lt;&gt; ';
-    font-size: 1.1em;
-  }</pre>
-
+<pre>CSS code:
+li::marker {
+  color: cornflowerblue;
+  content: '&lt;&gt; ';
+  font-size: 1.1em;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6166,7 +6142,6 @@ specified in the code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>::before and ::after</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>One more pair of pseudo-elements are the <strong>::before</strong>
 and <strong>::after</strong> pseudo-elements. They allow you to add
 content before and after an element on which they are allowed. In other
@@ -6174,38 +6149,32 @@ words, new content can be added to a page without adding HTML code for
 it. You can also add styling options for this content. Let’s do an
 example where text is added both before and after some cooking
 guidelines to identify them as important tips.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  &lt;body&gt;
-    &lt;p id="tips"&gt; Don't rinse your pasta after it is drained. &lt;/p&gt;
-    &lt;p&gt; Slice the tomatoes. Take the extra efforts to seed them. &lt;/p&gt;
-    &lt;p id="tips"&gt; Peel and seed large tomatoes. &lt;/p&gt;
-  &lt;/body&gt;</pre>
-
+<pre>&lt;body&gt;
+  &lt;p id="tips"&gt; Don't rinse your pasta after it is drained. &lt;/p&gt;
+  &lt;p&gt; Slice the tomatoes. Take the extra efforts to seed them. &lt;/p&gt;
+  &lt;p id="tips"&gt; Peel and seed large tomatoes. &lt;/p&gt;
+&lt;/body&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  #tips::before{
-    background: darkkhaki;
-    color:darkslategray;
-    content: "Tip:";
-    padding-left: 3px;
-    padding-right: 5px;
-    border-radius: 10%;
-  }
- 
-  #tips::after{
-    background:darkkhaki;
-    color:darkslategray;
-    content: "!!";
-    padding-right: 5px;
-    border-radius: 20%;
-  }</pre>
-
+<pre>#tips::before{
+  background: darkkhaki;
+  color:darkslategray;
+  content: "Tip:";
+  padding-left: 3px;
+  padding-right: 5px;
+  border-radius: 10%;
+}
+#tips::after{
+  background:darkkhaki;
+  color:darkslategray;
+  content: "!!";
+  padding-right: 5px;
+  border-radius: 20%;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7597,19 +7566,17 @@ the steps inside it.</p>
 B. You can use the transition and transform properties to do that, but
 animation sequences are used to accomplish more complex behaviors in an
 easier way.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>from{} and to{} keywords and using percentages(%) syntax</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  @keyframes animation-name {
-    from {
-      property-a: value-a;
-    }
-    to {
-      property-a: value-b;
-    }
-  }</pre>
+<pre>@keyframes animation-name {
+  from {
+    property-a: value-a;
+  }
+  to {
+    property-a: value-b;
+  }
+}</pre>
 
 <p>The 'from' and 'to' keywords are used inside the @keyframes rule to
 mark the transition of one or more properties and can be seen as the
@@ -7619,12 +7586,12 @@ expand on the use of ‘from’ and ‘to’, the @keyframes allows you to add
 more steps to your animation by using a percentage that represents the
 completion of the animation. </p>
 
-<pre>  @keyframes identifier {
-    0% {transform: rotate(100deg);}
-    30% {opacity: 1;}
-    50% {opacity: 0.50;}
-    70% {opacity: 1;}
-    100% {transform: rotate(50deg);}</pre>
+<pre>@keyframes identifier {
+  0% {transform: rotate(100deg);}
+  30% {opacity: 1;}
+  50% {opacity: 0.50;}
+  70% {opacity: 1;}
+  100% {transform: rotate(50deg);}</pre>
 
 <p>The different percentages used in the example demonstrate the
 progression of the animation. Note that it doesn’t have to be the same
@@ -7665,37 +7632,32 @@ is what's used to tie it to the @keyframes rule.</p>
 
 <p>Let’s now examine an example of how you can use @keyframes and the
 animation property. </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Animation example</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  &lt;body&gt;
-    &lt;div class="box"&gt;&lt;/div&gt;
-  &lt;/body&gt;
-
-  &lt;/html&gt;</pre>
-
+<pre>&lt;body&gt;
+  &lt;div class="box"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS code:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  body{
-    padding: 30px;} 
-    .box{ 
-      background-color: lightcoral; 
-      width: 50px;
-      height: 50px; 
-      animation: myanimation 3s infinite ease-in; 
-    }
-  @keyframes myanimation{
-    from{width: 50px; 
+<pre>body {
+  padding: 30px;} 
+  .box { 
+    background-color: lightcoral; 
+    width: 50px;
+    height: 50px; 
+    animation: myanimation 3s infinite ease-in; 
+  }
+  @keyframes myanimation {
+    from {width: 50px; 
     } 
-    to{width: 100px; 
-    }</pre>
-
+    to {width: 100px; 
+    }
+  }</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>And this is the output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7723,22 +7685,22 @@ animation.</p>
 <p>If you modify this code and change the animation rules to
 percentages, it will have the same output.</p>
 
-<pre>  @keyframes myanimation{
-    0%{width: 50px;
-    }
-    100%{width: 100px;
-    }</pre>
+<pre>@keyframes myanimation {
+  0%{width: 50px;
+  }
+  100%{width: 100px;
+  }</pre>
 
 <p>Now, let’s add an intermediary step at 50%.</p>
 
-<pre>  @keyframes myanimation{
-    0%{width: 50px;
-    }
-    50%{background-color: aquamarine;
-      height: 20px;
-    }
-    100%{width: 100px;
-    }</pre>
+<pre>@keyframes myanimation {
+  0%{width: 50px;
+  }
+  50%{background-color: aquamarine;
+    height: 20px;
+  }
+  100%{width: 100px;
+  }</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Output:</h4>
@@ -7881,7 +7843,6 @@ Now my animation plays exactly as I intended it to do.</p>
 <p>In this module, you learned how to create a simple keyframe animation with 
 CSS. But CSS animations and keyframes are quite powerful. Try challenging 
 yourself and see what animations you can build.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Animation and effects cheat sheet</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7890,99 +7851,85 @@ yourself and see what animations you can build.</p>
 <h4>Syntax</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>transform: transform function-values</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  .sample-class {
-    transform: rotate(60deg);
-  }</pre>
-
+<pre>.sample-class {
+  transform: rotate(60deg);
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Keyword-value type: none</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  .sample-class {
-    transform: none;
-  }</pre>
-
+<pre>.sample-class {
+  transform: none;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: matrix() </strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: matrix(), matrix3d()</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-     transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
-  }</pre>
-
+<pre>.sample-class {
+   transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: rotate(deg)</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  .sample-class {
-    transform: rotate3d(3,2,1, 100deg);
-  }</pre>
+<pre>.sample-class {
+  transform: rotate3d(3,2,1, 100deg);
+}</pre>
 
 <p>Note: In rotate3d(), the respective values represent x, y, z
 co-ordinate and degree of rotations</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: translate(x,y)</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: translate(), translate3d(), translateX(), translateY(), translateZ()</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-    transform: translate3d(10px, 20px, 30px);
-  }</pre>
+<pre>.sample-class {
+  transform: translate3d(10px, 20px, 30px);
+}</pre>
 
 <p>Note: In translate3d(), the respective values represent translation
 along the x, y, z co-ordinates</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: scale(factor)</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-    transform: scale3d(2, 1, 0.3);
-  }</pre>
+<pre>.sample-class {
+  transform: scale3d(2, 1, 0.3);
+}</pre>
 
 <p>Note: In scale3d(), the respective values represent scaling times
 along the x, y, z co-ordinates</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Function-value type: skew(deg, deg)</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>Variations: skew(), skewX(), skewY()</h4>
 
-<pre>  .sample-class {
-    transform: skew(100deg);
-  }</pre>
-
+<pre>.sample-class {
+  transform: skew(100deg);
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><strong>Global value types:</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-    transform: inherit;
-  }
-  .sample-class {
-    transform: initial;
-  }
-  .sample-class {
-    transform: revert;
-  }
-  .sample-class {
-    transform: revert-layer;
-  }
-  .sample-class {
-    transform: unset;
-  }</pre>
-
+<pre>.sample-class {
+  transform: inherit;
+}
+.sample-class {
+  transform: initial;
+}
+.sample-class {
+  transform: revert;
+}
+.sample-class {
+  transform: revert-layer;
+}
+.sample-class {
+  transform: unset;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Multiple transform over the same element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7995,25 +7942,21 @@ values and the actions will give a combined effect. </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-    transform: rotate(45deg) scale(1.5) translate(45px);
-  }</pre>
+<pre>.sample-class {
+  transform: rotate(45deg) scale(1.5) translate(45px);
+}</pre>
 
 <p>Additional property under transform:transform-origin</p>
 <p>Determines the anchor point for the centering of transform.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-    transform-origin: 10px 10px;
-  }
-  .sample-class {
-    transform-origin: right bottom;
-  }</pre>
-
+<pre>.sample-class {
+  transform-origin: 10px 10px;
+}
+.sample-class {
+  transform-origin: right bottom;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Transition property</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8031,7 +7974,6 @@ can also be individually defined. </p>
 
 <p>You have to list the values without naming them individually. Values
 skipped will be assigned their default values.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8039,7 +7981,6 @@ skipped will be assigned their default values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>transition: margin-left 2s ease-in-out 0.5s;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Animations and @keyframes</h3>
@@ -8053,76 +7994,67 @@ skipped will be assigned their default values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  .sample-class {
-    animation: none 2 ease 0.5 4 normal none running;
-  }</pre>
+<pre>.sample-class {
+  animation: none 2 ease 0.5 4 normal none running;
+}</pre>
 
 <p>The animation property is shorthand for the sub-properties below:</p>
 
-<pre>  animation-name
-  animation-duration
-  animation-timing-function
-  animation-delay
-  animation-iteration-count
-  animation-direction
-  animation-fill-mode
-  animation-play-state</pre>
+<pre>animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state</pre>
 
 <p>The values not mentioned are given default values.</p>
 <p>Animation-name property is used to tie-in the @keyframes rule.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>@keyframes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  @keyframes mymove {
-    from {property: value}
-    to { property: value }
-  }</pre>
-
+<pre>@keyframes mymove {
+  from {property: value}
+  to { property: value }
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  @keyframes animation-name {
-    from {bottom: 0px;}
-    to {bottom: 100px;}
-  }</pre>
+<pre>@keyframes animation-name {
+  from {bottom: 0px;}
+  to {bottom: 100px;}
+}</pre>
 
 <p>Percentage denotes the timing of the animation. </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Alternative syntax</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>  @keyframes animation-name {
-  /* declare actions here */
-  }</pre>
+<pre>@keyframes animation-name {
+/* declare actions here */
+}</pre>
 
 <h4>Example</h4>
 
-<pre>  @keyframes animation-name {
-    0%,100%{
-        background-color: blue;
-    }
-    50% {
-        background-color: green;
-    }
-  }</pre>
-
+<pre>@keyframes animation-name {
+  0%,100%{
+      background-color: blue;
+  }
+  50% {
+      background-color: green;
+  }
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Multiple animations</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Works the same as regular animation, multiple rules can be set. </p>
 
-<pre>  #some-class{
-    animation: animation-a 2s linear infinite alternate,
-        animation-b 3s ease infinite alternate;
-  }</pre>
-
+<pre>#some-class{
+  animation: animation-a 2s linear infinite alternate,
+      animation-b 3s ease infinite alternate;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Preprocessors: sass, scss, Stylus</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8178,29 +8110,27 @@ Files using this syntax have the .sass extension."</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Regular CSS:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  body { 
-    font: 100% Arial; 
-    color: lightblue; 
-  }</pre>
+<pre>body { 
+  font: 100% Arial; 
+  color: lightblue; 
+}</pre>
 
 <h4>This is the SCSS: </h4>
 
-<pre>  $font-stack: Arial; 
-  $primary-color: lightblue; 
- 
-  body { 
-    font: 100% $font-stack; 
-    color: $primary-color; 
-  }</pre>
+<pre>$font-stack: Arial; 
+$primary-color: lightblue; 
+body { 
+  font: 100% $font-stack; 
+  color: $primary-color; 
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>SASS for the same block:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  $font-stack: Arial 
-  $primary-color: lightblue 
- 
-  body 
-    font: 100% $font-stack 
-    color: $primary-color</pre>
+<pre>$font-stack: Arial 
+$primary-color: lightblue 
+body 
+  font: 100% $font-stack 
+  color: $primary-color</pre>
 
 <p>The variables have been defined at the top with labels such as
 ‘$font-stack’ and ‘$primary-color’. This is done with the ‘$’ suffix.
@@ -8223,15 +8153,14 @@ us explore a couple of directives called @mixin and @include.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  @mixin some-rules {
-    color: lightblue;
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-  div {
-    @include some-rules;
-  }</pre>
+<pre>@mixin some-rules {
+  color: lightblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+div {
+  @include some-rules;
+}</pre>
 
 <p>There are two directives @mixin and @include, that are used here.
 In the first step, you will add properties that you want to reuse inside @mixin.
@@ -8249,9 +8178,9 @@ another selector.</p>
 their type, called Stylus. If you continue to use the example above, the
 code for Stylus will look like this:</p>
 
-<pre>  body
-    font 100% Arial
-    color lightblue</pre>
+<pre>body
+  font 100% Arial
+  color lightblue</pre>
 
 <p>It is not hard to miss the simplicity of the code without the colons,
 brackets or semicolons. But you should note that it is still allowed to
@@ -8266,11 +8195,10 @@ use of functions.</p>
 
 <p>Here is an example of this using Stylus.</p>
 
-<pre>  add(a, b)
-    a + b
-
-  div
-    margin add(10px, 20px)</pre>
+<pre>add(a, b)
+  a + b
+div
+  margin add(10px, 20px)</pre>
 
 <p>What is evident in the code above is that first, you have defined a
 function called ‘add’ and passed the variables ‘a’ and ‘b’ inside it.
@@ -10158,27 +10086,22 @@ increasingly specific styling to various elements.</p>
 <h4>Basic meta tags (meta tags For SEO)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>&lt;meta name=”description”/&gt; - provides a brief description of the web 
-    page,</li>
+  <li>&lt;meta name=”description”/&gt; - provides a brief description of the web page,</li>
   <li>&lt;meta name=”title”/&gt; - specifies the title of the web page,</li>
-  <li>&lt;meta name=”author” content="name"&gt; - specifies the author of the web 
+  <li>&lt;meta name=”author” content="name"&gt; - specifies the author of the web page,</li>
+  <li>&lt;meta name=”language” content="english"&gt; - specifies the language of the web 
     page,</li>
-  <li>&lt;meta name=”language” content="english"&gt; - specifies the language of 
-    the web page,</li>
-  <li>&lt;meta name="robots" content="index,follow" /&gt; - tells search engines 
-    how to crawl or index a certain page,</li>
-  <li>&lt;meta name="google"/&gt; - tells Google not to show the sitelinks 
-    search box for your page when showing search results,</li>
-  <li>&lt;meta name="googlebot" content=”notranslate” /&gt; - tells Google 
-    you don’t want to provide an automatic translation for your page if the 
-  user uses a different language,</li>
+  <li>&lt;meta name="robots" content="index,follow" /&gt; - tells search engines how to 
+    crawl or index a certain page,</li>
+  <li>&lt;meta name="google"/&gt; - tells Google not to show the sitelinks search box for 
+    your page when showing search results,</li>
+  <li>&lt;meta name="googlebot" content=”notranslate” /&gt; - tells Google you don’t want 
+    to provide an automatic translation for your page if the user uses a different language,</li>
   <li>&lt;meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm" /&gt; 
-    - specifies the last modified date and time on which you have made certain 
-  changes,</li>
-  <li>&lt;meta name="rating" content="safe for kids"&gt; - specifies the expected 
-    audience for your page, and</li>
-  <li>&lt;meta name="copyright" content="Copyright 2022"&gt; - specifies a 
-    Copyright.</li>
+    - specifies the last modified date and time on which you have made certain changes,</li>
+  <li>&lt;meta name="rating" content="safe for kids"&gt; - specifies the expected audience 
+    for your page, and</li>
+  <li>&lt;meta name="copyright" content="Copyright 2022"&gt; - specifies a Copyright.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>&lt;meta http-equiv="..."/&gt; tags</h4>
@@ -10186,8 +10109,7 @@ increasingly specific styling to various elements.</p>
 <ul>
   <li>&lt;meta http-equiv="content-type" content="text/html"&gt; - specifies the format of 
     the document returned by the server,</li>
-  <li>&lt;meta http-equiv="default-style"/&gt; - specifies the format of the styling 
-    document,</li>
+  <li>&lt;meta http-equiv="default-style"/&gt; - specifies the format of the styling document,</li>
   <li>&lt;meta http-equiv="refresh"/&gt; - specifies the duration of the page before it’s 
     considered stale,</li>
   <li>&lt;meta http-equiv=”Content-language”/&gt; - specifies the language of the page, and</li>
@@ -10213,7 +10135,8 @@ increasingly specific styling to various elements.</p>
   <h6>Last updated 12/21/23 6:54pm<br>
   Last updated 3/12/24 5:08pm - Tuesday<br>
   Last updated 6/15/24 6:38pm - Saturday<br>
-  Last updated 10/20/25 12:05pm - Tuesday</h6>
+  Last updated 10/20/24 12:05pm - Tuesday<br>
+  Last updated 6/26/25 10:50pm - Wednesday</h6>
 </footer>
 
 </body>
