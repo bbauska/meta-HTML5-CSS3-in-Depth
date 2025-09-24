@@ -1,5 +1,5 @@
 ---
-title: "<b>HTML & CSS in Depth**"
+title: "<b>HTML & CSS in Depth</b>"
 ---
 
 (Coursera/meta)
@@ -467,8 +467,8 @@ analyze and rank your website.
 But for now, let&apos;s just focus on how meta tags influence website
 ranking.
 
-![](images/image018.png){width="6.0in"
-height="1.5410258092738407in"}
+![](images/image018.png)
+<!-- {width="6.0in" height="1.5410258092738407in"} -->
 
 Meta tags define metadata about a web page.
 
@@ -479,12 +479,12 @@ Meta tags are added inside the head element of your html document and as
 you know, nothing inside the head element is displayed in the web
 browser.
 
-![](images/image019.png){width="3.2in"
-height="2.4929385389326333in"}In other words, meta tags are unseen
-elements within the browser. Note that there is no closing tag for the
-meta tag.
+<!-- ![](images/image019.png){width="3.2in" height="2.4929385389326333in"}  -->
+In other words, meta tags are unseen elements within the browser. Note that there is no closing 
+tag for the meta tag.
 
-![](images/image020.png){width="6.0in" height="1.275in"}
+![](images/image020.png)
+<!-- {width="6.0in" height="1.275in"}  -->
 
 The meta element has two attributes, name and content.
 
@@ -493,16 +493,16 @@ attribute specifies the value of the metadata.
 
 Let&apos;s examine some examples of metadata.
 
-![](images/image021.png){width="6.0in"
-height="2.388461286089239in"}
+![](images/image021.png)
+<!-- {width="6.0in" height="2.388461286089239in"}  -->
 
 The author metadata specifies the author of the web page.
 
 The name attribute is author and the content attribute is the person and
 company who are the author of the web page.
 
-![](images/image022.png){width="6.0in"
-height="2.388461286089239in"}
+![](images/image022.png)
+<!-- {width="6.0in" height="2.388461286089239in"}  -->
 
 The description metadata describes the content of the web page.
 
@@ -512,8 +512,8 @@ results.
 The name attribute is set to description and the content attribute is
 the descriptive text.
 
-![](images/image023.png){width="6.0in"
-height="2.388461286089239in"}
+![](images/image023.png)
+<!-- {width="6.0in" height="2.388461286089239in"}  -->
 
 The keywords metadata was previously used to provide search keywords for
 search engines.
@@ -525,8 +525,8 @@ One of the major search engines now ignores this metadata and another
 uses keywords metadata as a spam indicator because of this, it&apos;s
 recommended not to include this metadata in modern web pages.
 
-![](images/image024.png){width="6.0in"
-height="2.388461286089239in"}
+![](images/image024.png)
+<!-- {width="6.0in" height="2.388461286089239in"}  -->
 
 Another type of metadata is the robot&apos;s metadata and it tells search
 engines if and how they should analyze your web page.
@@ -534,8 +534,8 @@ engines if and how they should analyze your web page.
 The name 'robots' comes from the automated software often referred to as
 bots, that search engines used to analyze websites.
 
-![](images/image025.png){width="2.6041666666666665in"
-height="4.90625in"}
+![](images/image025.png)
+<!-- {width="2.6041666666666665in" height="4.90625in"}  -->
 
 The content attribute for Robots has four possible values. Index tells
 the bot to analyze the page. Follow tells the bot to also visit all
@@ -545,8 +545,8 @@ bots from analyzing your page and no follow tells the bot not to visit
 links on the web page. Again, some bots will ignore this value so it&apos;s
 best not to rely on it.
 
-![](images/image026.png){width="6.0in"
-height="2.1801279527559054in"}
+![](images/image026.png)
+<!-- {width="6.0in" height="2.1801279527559054in"}  -->
 
 Finally, there&apos;s the view ports metadata. The view port metadata is
 important when designing responsive web pages. Why you might ask because
@@ -573,8 +573,8 @@ on social media.
 
 But that&apos;s for later modules.
 
-![](images/image027.png){width="1.1618055555555555in"
-height="3.0in"}
+![](images/image027.png)
+<!-- {width="1.1618055555555555in" height="3.0in"}  -->
 
 For now, it&apos;s important to know that author, description, keywords,
 robots and viewports metadata all play a role in the search engine
@@ -598,8 +598,8 @@ content in this file, but it is here so that you can easily add CSS
 rules to the webpage. Again, it&apos;s best if you add any other CSS files
 also to this folder.
 
-![](images/image028.png){width="6.0in"
-height="3.4929483814523183in"}
+![](images/image028.png)
+<!-- {width="6.0in" height="3.4929483814523183in"}  -->
 
 I go back to my template folder and open it in Visual Studio Code. I
 open the index.html file. The file has a semantic HTML document
@@ -617,8 +617,8 @@ For now, the main thing to know is that if you plan on sharing the
 webpage on social media, you should remember to uncomment this HTML
 section and update the content attributes.
 
-![](images/image029.png){width="6.0in"
-height="3.4929483814523183in"}
+![](images/image029.png)
+<!-- {width="6.0in" height="3.4929483814523183in"}  -->
 
 The next block of commented out code is for icons. If you want to show
 an icon in the web browser tab for your website, you can update the href
@@ -632,8 +632,8 @@ the styles.css file in the CSS folder.
 
 By now you can probably see how useful this template is.
 
-![](images/image030.png){width="6.0in"
-height="3.4929483814523183in"}
+![](images/image030.png)
+<!-- {width="6.0in" height="3.4929483814523183in"}  -->
 
 Let&apos;s continue to the body element. The body element already contains a
 basic semantic structure. This includes the header element for your
@@ -641,8 +641,8 @@ website title or logo, the nav element for your website navigation, the
 main element for your main content, and the footer element for any
 copyright notices or links to secondary webpages.
 
-![](images/image031.png){width="6.0in"
-height="0.7339741907261592in"}
+![](images/image031.png)
+<!-- {width="6.0in" height="0.7339741907261592in"}  -->
 
 Below the footer element, you add script elements for JavaScript files.
 To make your life easy, a script element is already set up to reference
@@ -673,9 +673,9 @@ website, such as product pages, careers pages or contact pages. This
 provides the visitor to the website with a consistent navigation
 experience.
 
-![Example of a top navbar layout on a web
-page.](images/image032.png){width="6.0in"
-height="2.6327504374453192in"}
+![Example of a top navbar layout on a web page.](images/image032.png)
+
+<!-- {width="6.0in" height="2.6327504374453192in"}  -->
 
 Carousel layout
 
@@ -684,28 +684,24 @@ highlight their featured products, discounts and offers. The carousel
 contains content items that will rotate through the carousel area at a
 fixed interval.
 
-![Example of a Carousel Layout on a web
-page](images/image033.png){width="6.0in"
-height="3.431632764654418in"}
+![Example of a Carousel Layout on a web page](images/image033.png)
+<!-- {width="6.0in" height="3.431632764654418in"}  -->
 
 Blog layout
 
-The blog layout is used to feature multiple content items of differing
-importance.
+The blog layout is used to feature multiple content items of differing importance.
 
-It is often seen on news websites where new articles will appear on the
-page each day based on current events.
+It is often seen on news websites where new articles will appear on the page each day based on 
+current events .
 
-![Example of a large style Blog Layout on a web
-page](images/image034.png){width="6.0in"
-height="3.919861111111111in"}
+![Example of a large style Blog Layout on a web page](images/image034.png)
+<!-- {width="6.0in" height="3.919861111111111in"}  -->
 
 The layout typically features different-sized feature areas followed by
 a series of article summary areas that link to full articles.
 
-![Example of a regular style Blog Layout ron a web
-page](images/image035.png){width="6.0in"
-height="3.579003718285214in"}
+![Example of a regular style Blog Layout ron a web page](images/image035.png)
+<!-- {width="6.0in" height="3.579003718285214in"}  -->
 
 Dashboard layout
 
@@ -715,9 +711,8 @@ navigation with the main content area containing forms for configuration
 or reporting data such as graphs and tables. This trendy layout provides
 a good user experience for business users.
 
-![Example of a Dashboard Layout on a web
-page](images/image036.png){width="6.0in"
-height="3.0491305774278215in"}
+![Example of a Dashboard Layout on a web page](images/image036.png)
+<!-- {width="6.0in" height="3.0491305774278215in"}  -->
 
 More layouts
 
@@ -6837,14 +6832,14 @@ CSS Pseudo cheat sheet
 
 ## Pseudo-element selectors
 
-|**Syntax** |**Example** |**Description** |
+|<b>Syntax</b> |<b>Example</b> |<b>Description</b> |
 |-----------|------------|----------------|
-|  ::after |         **p::after { }** |    | Inserts content after content of &lt;p&gt; element. |
-|  ::before  |       **p::before { }**       | Inserts content before content of &lt;p&gt; element. |
-|  ::first-letter |   **p::first-letter { }** | Selects first letter of every &lt;p&gt; element. |
-|  ::first-line |    **p::first-line { }**  | Selects first line of every &lt;p&gt; element. |
-|  ::placeholder|    **input::placeholder { }** | Selects input elements with &quot;placeholder&quot; attribute specified. |
-|  ::marker  |       **::marker { }**        | Selects markers in a list. |
+|  ::after |         <b>p::after { }</b> |    | Inserts content after content of &lt;p&gt; element. |
+|  ::before  |       <b>p::before { }</b>       | Inserts content before content of &lt;p&gt; element. |
+|  ::first-letter |   <b>p::first-letter { }</b> | Selects first letter of every &lt;p&gt; element. |
+|  ::first-line |    <b>p::first-line { }</b>  | Selects first line of every &lt;p&gt; element. |
+|  ::placeholder|    <b>input::placeholder { }</b> | Selects input elements with &quot;placeholder&quot; attribute specified. |
+|  ::marker  |       <b>::marker { }</b>        | Selects markers in a list. |
  
 Additional resources
 
@@ -7131,7 +7126,7 @@ The visual representation of text content can be changed by four main
 properties: text-transform, font-style, font-weight and text-decoration.
 
   ----------------------------------------------------------------------------
-  **Property **     **Values**             **Description**
+  <b>Property </b>     <b>Values</b>             <b>Description</b>
   ----------------- ---------------------- -----------------------------------
   Text-transform    None, uppercase,       Modify text properties
                     lowercase, capitalize, 
@@ -7153,7 +7148,7 @@ properties: text-transform, font-style, font-weight and text-decoration.
 The additional properties that help configure styling effects are below.
 
   ------------------------------------------------------------------------------
-  **Text-align**              **For horizontal alignment of text**
+  <b>Text-align</b>              <b>For horizontal alignment of text</b>
   --------------------------- --------------------------------------------------
   Text-align-last             Alignment for the last line when text set to
                               justify
@@ -7192,7 +7187,7 @@ Other than these, there are some more properties that help modify the
 alignment and define the scope of text with their containers. 
 
   --------------------------------------------------------------------------
-  **Property **   **Values**              **Description**
+  <b>Property </b>   <b>Values</b>              <b>Description</b>
   --------------- ----------------------- ----------------------------------
   Text-overflow   Clip, ellipsis          Determines overflow behavior of
                                           text with the container
@@ -9545,7 +9540,7 @@ They are:
 
 -   Read on to find out more about them.
 
-## <b>Retail: Lucky Shrub**
+## <b>Retail: Lucky Shrub</b>
 
 ![Logo of the fictional client Lucky
 Shrub](images2/media/image239.png){width="0.5in"
@@ -9565,11 +9560,11 @@ nursery.
 
 ## Download their logos here:
 
-<b>[Lucky-Shrub-Logos]{.underline}**
+<b>[Lucky-Shrub-Logos]</b>
 
 [ZIP File]{.underline}
 
-## <b>Professional services: Hair Day** 
+## <b>Professional services: Hair Day</b> 
 
 ![Logo of the fictional client Hair
 day](images2/media/image240.png){width="2.0in"
@@ -9593,11 +9588,11 @@ manicurist and one make-up artist.
 
 ## Download their logos here:
 
-<b>[Hair Day logos]{.underline}**
+<b>[Hair Day logos]{.underline}</b>
 
 [ZIP File]{.underline}
 
-## <b>Restaurant: Little Lemon** 
+## <b>Restaurant: Little Lemon</b> 
 
 ![Logo of the fictional client Little
 Lemon](images2/media/image241.png){width="4.0in"
@@ -9619,11 +9614,11 @@ to incorporate additional cuisines from the Mediterranean region.
 
 ## Download their logos here:
 
-<b>[Little-Lemon-logos]{.underline}**
+<b>[Little-Lemon-logos]{.underline}</b>
 
 ZIP File
 
-## <b>Luxury Jewelry: Mangata and Gallo**
+## <b>Luxury Jewelry: Mangata and Gallo</b>
 
 ![Logo of the fictional client Magata and Gallo](images2/media/image242.png){width="5.0in" height="0.43766622922134735in"}
 
@@ -9644,7 +9639,7 @@ accounts.
 
 Download their logos here:
 
-<b>[Mangata and Gallo logos]{.underline}**
+<b>[Mangata and Gallo logos]{.underline}</b>
 
 [ZIP File]{.underline}
 
